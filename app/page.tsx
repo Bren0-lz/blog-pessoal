@@ -16,22 +16,22 @@ export default function Home() {
           <p className="eyebrow">SOFTWARE COMERCIAL · CRM · AUTOMAÇÃO</p>
           <h1>Eu construo sistemas que ajudam o seu negócio a vender mais.</h1>
           <p className="hero-lead">
-            Organizar é o mínimo. Eu transformo processos comerciais em software
-            que conduz oportunidades, reduz perdas e trabalha para gerar caixa.
+            Desenvolvo CRMs, integrações e automações para sua equipe acompanhar
+            clientes, responder no momento certo e deixar menos oportunidades pelo caminho.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#materiais">Ver como eu penso <ArrowRight size={18} /></a>
             <a className="button-link" href={whatsappLinks.sales} target="_blank" rel="noreferrer">Conversar no WhatsApp</a>
           </div>
           <div className="trust-line">
-            <span><Check size={15} /> Pensado para gerar receita</span>
-            <span><Check size={15} /> Construído ao redor do seu processo</span>
-            <span><Check size={15} /> Sem tecnologia por vaidade</span>
+            <span><Check size={15} /> Foco no resultado do negócio</span>
+            <span><Check size={15} /> Adaptado à sua forma de trabalhar</span>
+            <span><Check size={15} /> Tecnologia com uma finalidade clara</span>
           </div>
         </div>
         <aside className="hero-proof">
           <span className="proof-number">01</span>
-          <p className="proof-quote">“Um sistema comercial não deveria apenas guardar o que aconteceu. Ele deveria ajudar a próxima venda a acontecer.”</p>
+          <p className="proof-quote">“Um bom sistema ajuda a equipe a saber quem precisa de atenção e o que fazer em seguida.”</p>
           <div className="proof-footer"><span>BRENO</span><span>DESENVOLVEDOR DE SOFTWARE</span></div>
         </aside>
         <a className="scroll-cue" href="#materiais"><MoveDown size={15} /> explorar os materiais</a>
@@ -41,12 +41,12 @@ export default function Home() {
         <div className="section-code materials-code">02 / MATERIAIS</div>
         <div className="section-heading">
           <div>
-            <p className="eyebrow">CONFIANÇA COMEÇA PELO RACIOCÍNIO</p>
-            <h2>Leia como eu penso<br />antes de falar comigo.</h2>
+            <p className="eyebrow">IDEIAS PARA O DIA A DIA DO NEGÓCIO</p>
+            <h2>Como eu penso<br />sobre software e vendas.</h2>
           </div>
           <p>
-            Aqui eu abro os critérios que uso para encontrar receita perdida,
-            desenhar processos comerciais e decidir quando vale construir software.
+            Escrevo sobre problemas comuns no trabalho comercial e como a tecnologia
+            pode ajudar. São leituras para você avaliar o que faz sentido na sua empresa.
           </p>
         </div>
 
@@ -76,33 +76,61 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="deliveries section" id="entregas">
+        <div className="section-code materials-code">03 / O QUE EU CONSTRUO</div>
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">O QUE POSSO FAZER PELA SUA EMPRESA</p>
+            <h2>Soluções para o seu processo comercial.</h2>
+          </div>
+          <p>
+            Podemos melhorar uma etapa do trabalho ou desenvolver um sistema mais
+            completo. A escolha depende do problema e das ferramentas que você já usa.
+          </p>
+        </div>
+        <div className="deliveries-grid">
+          {[
+            ["01", "CRM sob medida", "Um lugar para consultar contatos, conversas e negociações, com etapas que fazem sentido para sua equipe e um responsável por cada atendimento."],
+            ["02", "Acompanhamento de propostas", "Propostas, prazos e retornos organizados para você saber o que está em negociação e quando precisa falar com cada cliente."],
+            ["03", "Integrações entre sistemas", "Conecto as ferramentas que sua empresa já usa para evitar que a equipe precise cadastrar a mesma informação em vários lugares."],
+            ["04", "Automações comerciais", "Tarefas, lembretes e distribuição de contatos interessados para reduzir o trabalho repetitivo e ajudar a equipe a manter os retornos em dia."],
+          ].map(([number, title, description]) => (
+            <article className="delivery" key={number}>
+              <span>{number}</span>
+              <h3>{title}</h3>
+              <p>{description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="presence section" id="sobre">
-        <div className="section-code">03 / QUEM ESTÁ POR TRÁS</div>
+        <div className="section-code">04 / QUEM ESTÁ POR TRÁS</div>
         <div className="presence-grid">
           <div className="presence-mark" aria-hidden="true">B</div>
           <div className="presence-copy">
-            <p className="eyebrow">TÉCNICA, NEGÓCIO E EXPERIÊNCIA REAL</p>
+            <p className="eyebrow">FORMAÇÃO E EXPERIÊNCIA</p>
             <h2>Breno Luiz Silva do Carmo.</h2>
             <p>
-              Minha trajetória começou com a formação técnica em informática e avançou
-              até a engenharia de computação. Trabalhei como estagiário, mas, ao perceber
-              uma deficiência no mercado, decidi abrir meu próprio negócio.
+              Sou técnico em informática e engenheiro de computação. Comecei trabalhando
+              como estagiário e, ao perceber que muitas empresas precisavam de sistemas
+              mais adequados à sua rotina, decidi abrir meu próprio negócio.
             </p>
             <p>
-              Desde então, desenvolvi sistemas para mais de 50 empresas locais,
-              transformando processos presos ao papel e a planilhas confusas em operações
-              mais claras e eficientes. Mais do que organizar informações, esses softwares
-              ajudaram empresas a evitar oportunidades perdidas e gerar vendas reais.
+              Desde então, desenvolvi sistemas para mais de 50 empresas locais. Ajudei
+              negócios a sair do papel e de planilhas confusas, organizar o atendimento
+              e acompanhar melhor suas oportunidades. Esses softwares também ajudaram
+              empresas a gerar vendas reais.
             </p>
             <p>
-              Hoje, meu objetivo é levar essa experiência a mais empresas que querem
-              aumentar o faturamento por meio de software pensado para a realidade da operação.
+              Hoje, quero ajudar mais empresas a vender melhor com software que respeite
+              sua forma de trabalhar e resolva dificuldades do dia a dia.
             </p>
           </div>
           <aside className="presence-proof" aria-label="Experiência profissional">
             <strong>50+</strong>
             <span>empresas locais atendidas</span>
-            <p>Do papel e das planilhas para sistemas que acompanham e apoiam a venda.</p>
+            <p>Sistemas para organizar o trabalho e acompanhar o atendimento ao cliente.</p>
             <div className="presence-credentials">
               <span>Técnico em informática</span>
               <span>Engenheiro de computação</span>
@@ -112,40 +140,41 @@ export default function Home() {
       </section>
 
       <section className="problem-section section" id="o-problema">
-        <div className="section-code">04 / O PROBLEMA</div>
+        <div className="section-code">05 / O PROBLEMA</div>
         <div className="problem-heading">
-          <p className="eyebrow dark">ORGANIZAR NÃO É O MESMO QUE VENDER</p>
-          <h2>Um sistema organizado ainda pode estar deixando dinheiro na mesa.</h2>
+          <p className="eyebrow dark">QUANDO O SISTEMA NÃO ACOMPANHA A EQUIPE</p>
+          <h2>Você sabe quais clientes estão esperando um retorno?</h2>
         </div>
         <div className="problem-copy">
           <p>
-            Muitos sistemas funcionam como arquivos caros: guardam contatos, exibem
-            etapas e geram relatórios, mas não ajudam a equipe a avançar uma oportunidade.
+            Os contatos estão cadastrados e os relatórios estão prontos. Mesmo assim,
+            uma proposta fica sem resposta, um prazo passa e alguém precisa procurar
+            nas mensagens o que foi combinado.
           </p>
           <p>
-            Meu trabalho é identificar onde a receita escapa e transformar esses pontos
-            em ações, alertas e automações que apoiam a venda — não apenas o controle.
+            Meu trabalho é entender por que isso acontece e criar formas de evitar
+            essas falhas, com tarefas, lembretes e informações fáceis de encontrar.
           </p>
           <a className="inline-link" href="#como-penso">Veja como eu construo <ArrowRight size={17} /></a>
         </div>
       </section>
 
       <section className="method section" id="como-penso">
-        <div className="section-code">05 / COMO EU PENSO</div>
+        <div className="section-code">06 / COMO EU PENSO</div>
         <div className="method-grid">
           <div className="method-intro">
-            <p className="eyebrow">SOFTWARE ORIENTADO A RECEITA</p>
-            <h2>Cada função precisa mover a venda.</h2>
+            <p className="eyebrow">COMO ESCOLHO O QUE CONSTRUIR</p>
+            <h2>Cada função precisa ajudar em alguma coisa.</h2>
             <p>
-              Antes de pensar em telas e funcionalidades, eu procuro entender
-              qual comportamento comercial o sistema precisa provocar.
+              Antes de desenhar uma tela, quero entender quem vai usá-la,
+              qual tarefa precisa fazer e o que está dificultando esse trabalho hoje.
             </p>
           </div>
           <div className="principles">
             {[
-              ["01", "Encontrar onde a receita escapa", "Leads esquecidos, retornos atrasados, propostas sem acompanhamento e decisões presas em informação dispersa."],
-              ["02", "Transformar sinais em ação", "O sistema precisa mostrar o próximo passo, acionar a pessoa certa e reduzir o tempo entre interesse e resposta."],
-              ["03", "Aprender com cada oportunidade", "Dados úteis revelam gargalos, melhoram o processo e ajudam a equipe a repetir o que realmente funciona."],
+              ["01", "Entender onde o trabalho trava", "Procuro os retornos atrasados, as propostas esquecidas e as tarefas que exigem procurar informações em vários lugares."],
+              ["02", "Facilitar o próximo passo", "A equipe precisa saber o que fazer, quem cuida de cada atendimento e quais prazos merecem atenção."],
+              ["03", "Conferir o que melhorou", "Depois de colocar o sistema em uso, observo o que ficou mais simples e o que ainda precisa de ajuste."],
             ].map(([number, title, text]) => (
               <div className="principle" key={number}>
                 <span>{number}</span><div><h3>{title}</h3><p>{text}</p></div>
@@ -156,22 +185,22 @@ export default function Home() {
       </section>
 
       <section className="project-start section" id="como-comeca">
-        <div className="section-code">06 / COMO COMEÇA</div>
+        <div className="section-code">07 / COMO COMEÇA</div>
         <div className="project-start-heading">
           <div>
             <p className="eyebrow dark">DO PROBLEMA À PRIMEIRA VERSÃO</p>
             <h2>Você não precisa chegar com um escopo pronto.</h2>
           </div>
           <p>
-            O projeto começa pela operação comercial que existe hoje. Primeiro entendemos
-            onde a venda trava; depois, transformamos esse diagnóstico em software útil.
+            Você pode começar contando o que está difícil na rotina da empresa.
+            Vamos entender o problema e definir juntos o que vale a pena construir.
           </p>
         </div>
         <div className="project-steps">
           {[
-            ["01", "Diagnóstico comercial", "Conversamos sobre o processo, os canais, as pessoas envolvidas e os pontos em que oportunidades perdem velocidade ou desaparecem."],
-            ["02", "Desenho da solução", "Organizo o fluxo, defino o que o sistema precisa provocar e priorizo as funções com maior impacto sobre a operação e a receita."],
-            ["03", "Primeira versão e evolução", "Colocamos uma versão útil na operação, observamos o uso real e evoluímos o software com dados, aprendizado e novas prioridades."],
+            ["01", "Conversa sobre o negócio", "Quero conhecer sua rotina, as ferramentas que você usa e as dificuldades da equipe no atendimento e nas vendas."],
+            ["02", "Definição da solução", "Organizo as necessidades, proponho como o sistema pode ajudar e defino com você as prioridades da primeira versão."],
+            ["03", "Primeira versão e ajustes", "A equipe começa a usar o sistema. Acompanhamos o uso e ajustamos o que for necessário conforme aparecem novas necessidades."],
           ].map(([number, title, text]) => (
             <article className="project-step" key={number}>
               <span>{number}</span>
@@ -183,24 +212,24 @@ export default function Home() {
       </section>
 
       <section className="conversion section">
-        <div className="conversion-marker">07 / PRÓXIMA CONVERSA</div>
+        <div className="conversion-marker">08 / PRÓXIMA CONVERSA</div>
         <div>
-          <p className="eyebrow dark">SE O SEU SISTEMA SÓ ORGANIZA</p>
-          <h2>Talvez seja hora de fazê-lo trabalhar pela próxima venda.</h2>
+          <p className="eyebrow dark">VAMOS CONVERSAR</p>
+          <h2>O que você gostaria de melhorar na sua empresa?</h2>
         </div>
         <div className="conversion-copy">
           <p>
-            A primeira conversa serve para localizar o ponto em que a venda trava e
-            entender se existe uma oportunidade real para o software criar retorno.
+            Me conte como vocês trabalham e o que está dando mais trabalho hoje.
+            A partir daí, podemos avaliar como um sistema ajudaria.
           </p>
-          <a className="button button-dark" href={whatsappLinks.salesBottleneck} target="_blank" rel="noreferrer">Me conte onde a venda trava <ArrowRight size={18} /></a>
-          <small>Conversa inicial, sem proposta genérica e sem compromisso.</small>
+          <a className="button button-dark" href={whatsappLinks.salesBottleneck} target="_blank" rel="noreferrer">Falar sobre meu negócio <ArrowRight size={18} /></a>
+          <small>Uma primeira conversa, sem compromisso.</small>
         </div>
       </section>
 
       <footer>
         <a className="identity" href="/"><span className="identity-name">Breno</span><span className="identity-role">software &amp; sistemas</span></a>
-        <p>Software pensado para mover vendas.</p>
+        <p>Software para facilitar o trabalho e apoiar suas vendas.</p>
         <span>Brasil · 2026</span>
       </footer>
     </main>

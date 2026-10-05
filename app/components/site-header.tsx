@@ -9,7 +9,7 @@ export function SiteHeader() {
 
   return (
     <header className="site-header">
-      <a className="identity" href="/" aria-label="Breno — início">
+      <a className="identity" href="/" aria-label="Breno, página inicial">
         <span className="identity-name">Breno</span>
         <span className="identity-role">software &amp; sistemas</span>
       </a>

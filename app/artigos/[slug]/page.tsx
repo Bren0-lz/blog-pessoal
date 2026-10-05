@@ -54,8 +54,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <section className="article-cta">
         <div>
-          <p className="eyebrow">ISSO ACONTECE NA SUA OPERAÇÃO?</p>
-          <h2>Vamos descobrir onde o sistema pode ajudar a próxima venda.</h2>
+          <p className="eyebrow">ISSO ACONTECE NA SUA EMPRESA?</p>
+          <h2>Vamos conversar sobre como melhorar essa parte do trabalho.</h2>
         </div>
         <a className="button button-primary" href={whatsappLinks.fromArticle(article.title)} target="_blank" rel="noreferrer">Conversar no WhatsApp <ArrowRight size={18} /></a>
       </section>
@@ -66,7 +66,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <footer>
         <a className="identity" href="/"><span className="identity-name">Breno</span><span className="identity-role">software &amp; sistemas</span></a>
-        <p>Software pensado para mover vendas.</p><span>Brasil · 2026</span>
+        <p>Software para facilitar o trabalho e apoiar suas vendas.</p><span>Brasil · 2026</span>
       </footer>
     </main>
   );
