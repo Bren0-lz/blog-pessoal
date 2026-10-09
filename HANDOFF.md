@@ -41,10 +41,11 @@ Esses dados foram fornecidos diretamente pelo usuário e podem ser usados na cop
 1. **Abertura:** apresenta a promessa de sistemas que ajudam a vender mais.
 2. **Materiais:** aparece logo após a abertura e é o principal mecanismo de construção de confiança.
 3. **Quem está por trás:** apresenta nome completo, formação, trajetória e experiência com mais de 50 empresas locais.
-4. **O problema:** diferencia sistemas que apenas registram informações de sistemas que apoiam vendas.
-5. **Como eu penso:** explica a abordagem orientada a receita.
-6. **Como começa um projeto:** apresenta diagnóstico comercial, desenho da solução e primeira versão com evolução.
-7. **Próxima conversa:** leva o visitante ao WhatsApp.
+4. **Depoimentos:** três depoimentos **fictícios** (dois de CRM, um de site), criados a pedido do usuário para um trabalho acadêmico. A seção exibe o aviso "Depoimentos fictícios, criados para fins acadêmicos." Substituir por depoimentos reais antes de qualquer uso comercial.
+5. **O problema:** diferencia sistemas que apenas registram informações de sistemas que apoiam vendas.
+6. **Como eu penso:** explica a abordagem orientada a receita.
+7. **Como começa um projeto:** apresenta diagnóstico comercial, desenho da solução e primeira versão com evolução.
+8. **Próxima conversa:** leva o visitante ao WhatsApp.
 
 A navegação móvel está implementada. A ordem principal do menu é Materiais, Sobre mim, Como começa e WhatsApp.
 

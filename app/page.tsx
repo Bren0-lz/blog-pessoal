@@ -139,8 +139,36 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="testimonials section" id="depoimentos">
+        <div className="section-code">05 / DEPOIMENTOS</div>
+        <div className="testimonials-heading">
+          <div>
+            <p className="eyebrow dark">O QUE DIZEM OS CLIENTES</p>
+            <h2>Quem já usa no dia a dia.</h2>
+          </div>
+          <p>
+            Sistemas e sites que entraram na rotina das empresas e passaram a
+            ajudar no atendimento e nas vendas.
+          </p>
+        </div>
+        <div className="testimonial-grid">
+          {[
+            ["CRM sob medida", "Os orçamentos ficavam no caderno e no WhatsApp de cada vendedor. Hoje abro o sistema de manhã e sei exatamente quem está esperando retorno. Paramos de perder cliente por esquecimento.", "Mariana Costa", "Sócia-gerente · Costa & Prado Materiais de Construção"],
+            ["CRM sob medida", "Tínhamos três planilhas e ninguém confiava em nenhuma. O Breno passou dias acompanhando a equipe antes de propor qualquer tela. A primeira versão ficou pronta em poucas semanas e o pessoal usou desde o primeiro dia.", "Rafael Nogueira", "Diretor comercial · Nogueira Climatização"],
+            ["Site institucional", "O site conta a nossa história, mostra os produtos e deixa o cliente fazer o pedido sozinho. Tem gente que compra sem nunca ter falado com a gente e já chega conhecendo a marca.", "Juliana Ferraz", "Fundadora · Ateliê Ferraz"],
+          ].map(([type, quote, name, role]) => (
+            <figure className="testimonial" key={name}>
+              <span>{type}</span>
+              <blockquote>“{quote}”</blockquote>
+              <figcaption><strong>{name}</strong><span>{role}</span></figcaption>
+            </figure>
+          ))}
+        </div>
+        <small className="testimonials-note">Depoimentos fictícios, criados para fins acadêmicos.</small>
+      </section>
+
       <section className="problem-section section" id="o-problema">
-        <div className="section-code">05 / O PROBLEMA</div>
+        <div className="section-code">06 / O PROBLEMA</div>
         <div className="problem-heading">
           <p className="eyebrow dark">QUANDO O SISTEMA NÃO ACOMPANHA A EQUIPE</p>
           <h2>Você sabe quais clientes estão esperando um retorno?</h2>
@@ -160,7 +188,7 @@ export default function Home() {
       </section>
 
       <section className="method section" id="como-penso">
-        <div className="section-code">06 / COMO EU PENSO</div>
+        <div className="section-code">07 / COMO EU PENSO</div>
         <div className="method-grid">
           <div className="method-intro">
             <p className="eyebrow">COMO ESCOLHO O QUE CONSTRUIR</p>
@@ -185,7 +213,7 @@ export default function Home() {
       </section>
 
       <section className="project-start section" id="como-comeca">
-        <div className="section-code">07 / COMO COMEÇA</div>
+        <div className="section-code">08 / COMO COMEÇA</div>
         <div className="project-start-heading">
           <div>
             <p className="eyebrow dark">DO PROBLEMA À PRIMEIRA VERSÃO</p>
@@ -212,7 +240,7 @@ export default function Home() {
       </section>
 
       <section className="conversion section">
-        <div className="conversion-marker">08 / PRÓXIMA CONVERSA</div>
+        <div className="conversion-marker">09 / PRÓXIMA CONVERSA</div>
         <div>
           <p className="eyebrow dark">VAMOS CONVERSAR</p>
           <h2>O que você gostaria de melhorar na sua empresa?</h2>
