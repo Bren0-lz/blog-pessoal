@@ -32,7 +32,7 @@ export default function Home() {
         <aside className="hero-proof">
           <span className="proof-number">01</span>
           <p className="proof-quote">“Um bom sistema ajuda a equipe a saber quem precisa de atenção e o que fazer em seguida.”</p>
-          <div className="proof-footer"><span>BRENO</span><span>DESENVOLVEDOR DE SOFTWARE</span></div>
+          <div className="proof-footer"><span>BRENO LUIZ</span><span>DESENVOLVEDOR DE SOFTWARE</span></div>
         </aside>
         <a className="scroll-cue" href="#materiais"><MoveDown size={15} /> explorar os materiais</a>
       </section>
@@ -228,7 +228,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="identity" href="/"><span className="identity-name">Breno</span><span className="identity-role">software &amp; sistemas</span></a>
+        <a className="identity" href="/"><span className="identity-name">Breno Luiz</span><span className="identity-role">software &amp; sistemas</span></a>
         <p>Software para facilitar o trabalho e apoiar suas vendas.</p>
         <span>Brasil · 2026</span>
       </footer>

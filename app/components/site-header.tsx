@@ -9,8 +9,8 @@ export function SiteHeader() {
 
   return (
     <header className="site-header">
-      <a className="identity" href="/" aria-label="Breno, página inicial">
-        <span className="identity-name">Breno</span>
+      <a className="identity" href="/" aria-label="Breno Luiz, página inicial">
+        <span className="identity-name">Breno Luiz</span>
         <span className="identity-role">software &amp; sistemas</span>
       </a>
       <button className="menu-button" aria-label={open ? "Fechar menu" : "Abrir menu"} aria-expanded={open} onClick={() => setOpen(!open)}>

@@ -1,4 +1,4 @@
-# Breno — software & sistemas
+# Breno Luiz — software & sistemas
 
 Site pessoal e espaço editorial sobre CRM, processos, produto e desenvolvimento de software, estruturado para transformar conteúdo em autoridade e novas conversas.
 

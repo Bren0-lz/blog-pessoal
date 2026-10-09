@@ -6,16 +6,16 @@ function createWhatsAppLink(message: string) {
 
 export const whatsappLinks = {
   navigation: createWhatsAppLink(
-    "Olá, Breno! Conheci seu site e gostaria de conversar sobre um sistema para o meu negócio.",
+    "Olá, Breno Luiz! Conheci seu site e gostaria de conversar sobre um sistema para o meu negócio.",
   ),
   sales: createWhatsAppLink(
-    "Olá, Breno! Quero conversar sobre como um sistema pode ajudar meu negócio a vender mais.",
+    "Olá, Breno Luiz! Quero conversar sobre como um sistema pode ajudar meu negócio a vender mais.",
   ),
   salesBottleneck: createWhatsAppLink(
-    "Olá, Breno! Gostaria de conversar sobre algumas dificuldades na rotina da minha empresa e entender como um sistema pode ajudar.",
+    "Olá, Breno Luiz! Gostaria de conversar sobre algumas dificuldades na rotina da minha empresa e entender como um sistema pode ajudar.",
   ),
   fromArticle: (title: string) =>
     createWhatsAppLink(
-      `Olá, Breno! Li o artigo "${title}" no seu site e gostaria de conversar sobre como isso se aplica ao meu negócio.`,
+      `Olá, Breno Luiz! Li o artigo "${title}" no seu site e gostaria de conversar sobre como isso se aplica ao meu negócio.`,
     ),
 };

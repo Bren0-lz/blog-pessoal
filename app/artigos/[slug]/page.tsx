@@ -65,7 +65,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       </a>
 
       <footer>
-        <a className="identity" href="/"><span className="identity-name">Breno</span><span className="identity-role">software &amp; sistemas</span></a>
+        <a className="identity" href="/"><span className="identity-name">Breno Luiz</span><span className="identity-role">software &amp; sistemas</span></a>
         <p>Software para facilitar o trabalho e apoiar suas vendas.</p><span>Brasil · 2026</span>
       </footer>
     </main>

@@ -1,4 +1,4 @@
-# HANDOFF — site pessoal do Breno
+# HANDOFF — site pessoal do Breno Luiz
 
 Atualizado em: 3 de outubro de 2026
 
@@ -24,12 +24,12 @@ Esses dados foram fornecidos diretamente pelo usuário e podem ser usados na cop
 
 ## Marca e direção visual
 
-- Marca principal: **Breno**.
+- Marca principal: **Breno Luiz**.
 - Assinatura: **software & systems**.
 - Não há nome empresarial separado neste momento.
 - Visual minimalista, sóbrio e profissional, com predominância de azul-marinho escuro e superfícies editoriais claras.
 - Sensação desejada: autoridade, confiança, clareza e qualidade.
-- A marca “Breno” usa uma serifada fina e levemente itálica.
+- A marca “Breno Luiz” usa uma serifada fina e levemente itálica.
 - Não adicionar traço, sublinhado ou floreio abaixo do nome.
 - Não usar fontes manuscritas ou cursivas.
 - Evitar gradientes chamativos, excesso de decoração e linguagem genérica de agência.
