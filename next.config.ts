@@ -11,5 +11,5 @@ const nextConfig: NextConfig = {
   outputFileTracingRoot: path.resolve("."),
   turbopack: { root: path.resolve(".") },
 };
-
+// teste
 export default nextConfig;
