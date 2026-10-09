@@ -1,0 +1,21 @@
+name: Diagnóstico FTP
+
+on:
+  workflow_dispatch:
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Listar diretórios no FTP
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          echo "== Diretório inicial do login (PWD) =="
+          curl -sS -v --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/" -Q "PWD" --list-only 2>&1 | grep -E "^< 257|^< 230" || true
+          for dir in "" "public_html/" "public_html/public_html/" "domains/"; do
+            echo "== /$dir =="
+            curl -sS --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/$dir" --list-only || true
+          done
