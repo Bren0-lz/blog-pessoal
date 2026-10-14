@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { SiteHeader } from "../../components/site-header";
+import { SiteFooter } from "../../components/site-footer";
 import { whatsappLinks } from "../../contact";
 import { articles, getArticle } from "../../content/articles";
 
@@ -23,14 +24,14 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const article = getArticle(slug);
   if (!article) notFound();
 
-  const related = articles.find((item) => item.slug !== article.slug) ?? articles[0];
+  const related = articles[(articles.indexOf(article) + 1) % articles.length];
 
   return (
     <main>
       <SiteHeader />
       <article className="article-page">
         <header className="article-hero">
-          <a className="back-link" href="/#materiais"><ArrowLeft size={16} /> Todos os materiais</a>
+          <a className="back-link" href="/#artigos"><ArrowLeft size={16} /> Todos os artigos</a>
           <div className="article-meta"><span>{article.category}</span><span>{article.date}</span><span>{article.readingTime}</span></div>
           <h1>{article.title}</h1>
           <p>{article.description}</p>
@@ -64,10 +65,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         <span>PRÓXIMA LEITURA</span><strong>{related.title}</strong><ArrowRight size={22} />
       </a>
 
-      <footer>
-        <a className="identity" href="/"><span className="identity-name">Breno Luiz</span><span className="identity-role">software &amp; sistemas</span></a>
-        <p>Software para facilitar o trabalho e apoiar suas vendas.</p><span>Brasil · 2026</span>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

@@ -17,9 +17,11 @@ export function SiteHeader() {
         {open ? <X size={21} /> : <Menu size={21} />}
       </button>
       <nav className={open ? "nav nav-open" : "nav"} aria-label="Navegação principal">
-        <a href="/#materiais" onClick={() => setOpen(false)}>Materiais</a>
-        <a href="/#sobre" onClick={() => setOpen(false)}>Sobre mim</a>
+        <a href="/#entregas" onClick={() => setOpen(false)}>Serviços</a>
         <a href="/#como-comeca" onClick={() => setOpen(false)}>Como começa</a>
+        <a href="/#duvidas" onClick={() => setOpen(false)}>Dúvidas</a>
+        <a href="/#sobre" onClick={() => setOpen(false)}>Sobre mim</a>
+        <a href="/#artigos" onClick={() => setOpen(false)}>Artigos</a>
         <a className="nav-contact" href={whatsappLinks.navigation} target="_blank" rel="noreferrer">WhatsApp</a>
       </nav>
     </header>

@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Breno Luiz",
-  description: "Conheça o trabalho de Breno Luiz Silva do Carmo: CRMs sob medida, acompanhamento de propostas, integrações e automações para facilitar a rotina da sua empresa.",
+  title: "Breno Luiz · CRM e sistemas sob medida em Itaperuna – RJ",
+  description: "Breno Luiz Silva do Carmo une experiência em vendas e engenharia de computação para criar sistemas de prospecção, funil, metas e pós-venda para empresas de Itaperuna – RJ e região.",
+  openGraph: {
+    title: "Breno Luiz · CRM e sistemas sob medida",
+    description: "Sistemas feitos por quem entende de vendas: prospecção, funil, metas e pós-venda.",
+    locale: "pt_BR",
+    type: "website",
+  },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 

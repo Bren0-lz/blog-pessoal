@@ -1,5 +1,8 @@
 const whatsappPhone = "5522996199119";
 
+export const contactEmail = "contato@brenoluiz.com.br";
+export const location = "Itaperuna – RJ";
+
 function createWhatsAppLink(message: string) {
   return `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(message)}`;
 }
