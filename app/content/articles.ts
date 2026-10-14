@@ -28,7 +28,7 @@ export const articles: Article[] = [
     sections: [
       {
         paragraphs: [
-          "Uma das coisas que mais aprendi no estágio foi essa: dá para ter um CRM cheio de informação e, mesmo assim, ninguém saber o que fazer com ela. Lá, acompanhei de perto como a empresa vendia e desenvolvi o sistema do zero em cima desse processo. Foi quando percebi que o problema quase nunca é falta de dado.",
+          "Uma das coisas que mais aprendi desenvolvendo sistemas comerciais foi essa: dá para ter um CRM cheio de informação e, mesmo assim, ninguém saber o que fazer com ela. Em um dos projetos que mais me marcaram, acompanhei de perto como a empresa vendia e desenvolvi o sistema do zero em cima desse processo. Foi ali que percebi que o problema quase nunca é falta de dado.",
           "Então, se você já tem um CRM, faça um teste rápido. Ele te mostra de onde vêm os seus melhores clientes? Em que etapa as vendas costumam travar? Se a meta do mês vai ser batida? Quem parou de comprar? Se a resposta for \"não sei\" para quase tudo, ele está organizando contatos, mas não está ajudando a vender.",
         ],
       },
@@ -319,7 +319,7 @@ export const articles: Article[] = [
         heading: "Olhe para o que acontece por fora",
         paragraphs: [
           "Repare nas planilhas paralelas que a equipe mantém e nas informações que só existem no WhatsApp. Quanto tempo isso toma? O que acontece quando alguém esquece de atualizar? Essas respostas mostram o que o sistema atual não está dando conta.",
-          "Muitas vezes, integrar as ferramentas ou desenvolver só a parte que falta já resolve. Em outros casos, faz mais sentido um sistema novo, pensado do zero para o jeito que a empresa vende. Foi o que aconteceu no meu estágio: o sistema foi construído do zero, em volta do processo de vendas da empresa.",
+          "Muitas vezes, integrar as ferramentas ou desenvolver só a parte que falta já resolve. Em outros casos, faz mais sentido um sistema novo, pensado do zero para o jeito que a empresa vende. Quando é esse o caso, o sistema é construído em volta do processo de vendas, e não o contrário.",
         ],
       },
       {
@@ -442,7 +442,7 @@ export const articles: Article[] = [
       {
         heading: "Escute quem usa todo dia",
         paragraphs: [
-          "Quem atende cliente conhece detalhes que não aparecem em nenhum fluxograma. Peça para essa pessoa mostrar como registra uma conversa, monta uma proposta e organiza os retornos. Foi acompanhando o dia a dia de quem vendia, no meu estágio, que entendi do que o sistema precisava de verdade.",
+          "Quem atende cliente conhece detalhes que não aparecem em nenhum fluxograma. Peça para essa pessoa mostrar como registra uma conversa, monta uma proposta e organiza os retornos. Nos projetos que desenvolvo, é acompanhando o dia a dia de quem vende que eu descubro do que o sistema precisa de verdade.",
           "Trazer a equipe para perto antes da entrega ajuda a acertar. Não dá para atender todo pedido, mas dá para explicar as escolhas e ouvir o que pode atrapalhar.",
         ],
       },

@@ -17,9 +17,8 @@ export default function Home() {
           <p className="eyebrow">VENDAS · CRM · SISTEMAS SOB MEDIDA</p>
           <h1>Sistemas feitos por quem entende de vendas.</h1>
           <p className="hero-lead">
-            Aprendi vendas por dentro: no meu estágio, vivi o processo comercial de uma
-            empresa e desenvolvi do zero um sistema construído em volta dele. Hoje uso isso
-            para criar sistemas que ajudam a sua empresa a atrair clientes, conduzir
+            Aprendi vendas desenvolvendo do zero o sistema comercial de uma empresa,
+            acompanhando de perto como ela vendia. Hoje uso essa experiência para criar sistemas que ajudam a sua empresa a atrair clientes, conduzir
             negociações, acompanhar metas e vender de novo para quem já comprou.
           </p>
           <div className="hero-actions">
@@ -157,15 +156,14 @@ export default function Home() {
             <p className="eyebrow">FORMAÇÃO E EXPERIÊNCIA</p>
             <h2>Breno Luiz Silva do Carmo.</h2>
             <p>
-              Sou técnico em informática e engenheiro de computação. Mas o que mais
-              moldou o meu trabalho foi o estágio de desenvolvimento: lá, vivi de perto
-              o processo de vendas de uma empresa e desenvolvi do zero um sistema
-              construído em volta dele.
+              Sou técnico em informática e engenheiro de computação. Logo no início da
+              carreira, acompanhei de perto o processo de vendas de uma empresa e
+              desenvolvi o sistema que sustentava esse processo.
             </p>
             <p>
-              Foi ali que aprendi como uma venda funciona na prática e como um sistema
-              pode ajudar em cada etapa dela. Depois, percebi que muitas empresas
-              precisavam disso e decidi abrir meu próprio negócio.
+              Esse projeto me ensinou como uma venda funciona na prática e como um
+              sistema pode ajudar em cada etapa dela. Depois dele, percebi que muitas
+              empresas precisavam do mesmo e decidi abrir meu próprio negócio.
             </p>
             <p>
               Desde então, desenvolvo sistemas para empresas locais, ajudando negócios
