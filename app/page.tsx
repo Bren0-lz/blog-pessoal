@@ -17,16 +17,17 @@ export default function Home() {
           <p className="eyebrow">VENDAS · CRM · SISTEMAS SOB MEDIDA</p>
           <h1>Sistemas feitos por quem entende de vendas.</h1>
           <p className="hero-lead">
-            Tenho experiência no ramo de vendas e formação em engenharia de computação.
-            Uno as duas coisas para criar sistemas que ajudam sua empresa a atrair clientes,
-            conduzir negociações, acompanhar metas e vender de novo para quem já comprou.
+            Aprendi vendas por dentro: no meu estágio, vivi o processo comercial de uma
+            empresa e desenvolvi do zero um sistema construído em volta dele. Hoje uso isso
+            para criar sistemas que ajudam a sua empresa a atrair clientes, conduzir
+            negociações, acompanhar metas e vender de novo para quem já comprou.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href={whatsappLinks.sales} target="_blank" rel="noreferrer">Conversar no WhatsApp <ArrowRight size={18} /></a>
             <a className="button-link" href="#entregas">Ver o que eu construo</a>
           </div>
           <div className="trust-line">
-            <span><Check size={15} /> Experiência prática em vendas</span>
+            <span><Check size={15} /> Vivência real em processo de vendas</span>
             <span><Check size={15} /> Você fala direto com quem desenvolve</span>
             <span><Check size={15} /> O código do sistema fica com a sua empresa</span>
           </div>
@@ -56,10 +57,10 @@ export default function Home() {
             se a meta do mês vai ser batida ou quem parou de comprar.
           </p>
           <p>
-            Conheço esse dia a dia pela minha experiência no ramo de vendas. Por isso,
-            antes de pensar em telas, olho para o processo comercial da sua empresa:
-            como os clientes chegam, como a negociação avança e o que acontece depois
-            da venda. O sistema vem para apoiar esse processo.
+            Eu aprendi isso na prática. Por isso, antes de pensar em qualquer tela,
+            olho para o processo comercial da sua empresa: como os clientes chegam,
+            como a negociação anda e o que acontece depois da venda. O sistema vem
+            para apoiar esse processo, e não o contrário.
           </p>
           <a className="inline-link" href="#entregas">Veja o que posso construir <ArrowRight size={17} /></a>
         </div>
@@ -72,9 +73,9 @@ export default function Home() {
             <h2>Um sistema para cada etapa da venda.</h2>
           </div>
           <p>
-            Posso melhorar uma etapa específica ou construir um sistema que acompanhe
-            todo o processo comercial. A escolha depende do momento da sua empresa e
-            das ferramentas que você já usa.
+            Um sistema bem estruturado se adapta a qualquer modelo de empresa. Dá para
+            complementar o que você já usa ou construir tudo do zero, cobrindo uma
+            etapa ou o processo comercial inteiro.
           </p>
         </div>
         <div className="deliveries-grid">
@@ -95,31 +96,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="method section" id="como-penso">
-        <div className="method-grid">
-          <div className="method-intro">
-            <p className="eyebrow">COMO ESCOLHO O QUE CONSTRUIR</p>
-            <h2>Primeiro o processo de vendas, depois o sistema.</h2>
-            <p>
-              Antes de desenhar uma tela, quero entender como a sua empresa vende:
-              quem são os clientes, como eles chegam, como a negociação acontece e
-              o que vem depois da venda.
-            </p>
-          </div>
-          <div className="principles">
-            {[
-              ["01", "Entender como a sua empresa vende", "Mapeio o caminho do cliente, da captação ao pós-venda, e procuro os pontos onde as oportunidades se perdem."],
-              ["02", "Aplicar o que funciona em vendas", "Uso minha experiência no ramo comercial para propor práticas que façam sentido para o seu negócio, e não apenas para organizar dados."],
-              ["03", "Medir o que melhorou", "Depois que o sistema entra em uso, acompanho os resultados e ajusto o que ainda precisa melhorar."],
-            ].map(([number, title, text]) => (
-              <div className="principle" key={number}>
-                <span>{number}</span><div><h3>{title}</h3><p>{text}</p></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="project-start section" id="como-comeca">
         <div className="project-start-heading">
           <div>
@@ -134,8 +110,8 @@ export default function Home() {
         <div className="project-steps">
           {[
             ["01", "Conversa sobre o negócio", "Quero conhecer sua rotina, as ferramentas que você usa e as dificuldades da equipe no atendimento e nas vendas."],
-            ["02", "Definição da solução", "Organizo as necessidades, proponho como o sistema pode ajudar e defino com você as prioridades da primeira versão."],
-            ["03", "Primeira versão e ajustes", "A equipe começa a usar o sistema. Acompanhamos o uso e ajustamos o que for necessário conforme aparecem novas necessidades."],
+            ["02", "Definição da solução", "Organizo o que for preciso e uso o que aprendi sobre vendas para propor o que faz sentido para o seu negócio. Juntos, definimos o que entra na primeira versão."],
+            ["03", "Primeira versão e ajustes", "A equipe começa a usar o sistema. Eu acompanho os resultados e a gente ajusta o que for necessário conforme o uso."],
           ].map(([number, title, text]) => (
             <article className="project-step" key={number}>
               <span>{number}</span>
@@ -159,11 +135,12 @@ export default function Home() {
         </div>
         <div className="faq-list">
           {[
-            ["Quanto custa um sistema?", "Depende do tamanho do problema e do que precisa ser construído. Na primeira conversa, que não tem custo, entendo a rotina da sua empresa. Depois disso, envio uma proposta com o escopo, o prazo e o valor da primeira versão."],
-            ["Preciso saber exatamente o que quero?", "Não. Você pode começar contando o que está difícil no atendimento ou nas vendas. Definimos juntos o que vale a pena construir primeiro."],
-            ["Quem fica com o código do sistema?", "O código fica com a sua empresa. A hospedagem também fica por conta da empresa: a mensalidade é paga diretamente ao serviço de hospedagem escolhido."],
-            ["E depois que o sistema estiver pronto?", "Pequenas manutenções e atualizações são cobradas por hora, apenas quando forem necessárias. Para mudanças maiores, combinamos um novo contrato de serviço."],
-            ["Preciso abandonar as ferramentas que já uso?", "Nem sempre. Quando faz sentido, conecto o sistema às ferramentas que a sua empresa já usa, para a equipe não precisar cadastrar a mesma informação em vários lugares."],
+            ["Quanto custa um sistema?", "Depende muito do que precisa ser feito. A primeira conversa não tem custo: é nela que eu entendo como a sua empresa funciona. Depois, te envio uma proposta com o escopo, o prazo e o valor da primeira versão."],
+            ["Quanto tempo leva?", "Também depende do tamanho do sistema, e o prazo já vai definido na proposta. A ideia é colocar uma primeira versão em uso o quanto antes e ir melhorando com a equipe usando no dia a dia."],
+            ["Preciso saber exatamente o que quero?", "Não. Pode chegar só contando o que está difícil no atendimento ou nas vendas. A gente define junto o que vale a pena construir primeiro."],
+            ["Quem fica com o código do sistema?", "O código é da sua empresa. A hospedagem também fica por conta de vocês: a mensalidade é paga direto ao serviço de hospedagem escolhido."],
+            ["E depois que o sistema estiver pronto?", "Manutenções e atualizações pequenas eu cobro por hora, só quando forem necessárias. Se for uma mudança maior, a gente combina um novo contrato de serviço."],
+            ["Preciso abandonar as ferramentas que já uso?", "Não. Existem dois caminhos, e escolhemos juntos o que faz mais sentido. Posso complementar o sistema que a sua empresa já usa, criando o que falta e conectando as ferramentas para a equipe não cadastrar a mesma informação em vários lugares. Ou posso desenvolver um sistema do zero, pensado para atender todas as necessidades da sua empresa em um só lugar."],
           ].map(([question, answer]) => (
             <details className="faq-item" key={question}>
               <summary>{question}<Plus size={18} aria-hidden="true" /></summary>
@@ -180,26 +157,26 @@ export default function Home() {
             <p className="eyebrow">FORMAÇÃO E EXPERIÊNCIA</p>
             <h2>Breno Luiz Silva do Carmo.</h2>
             <p>
-              Sou técnico em informática, engenheiro de computação e tenho experiência
-              no ramo de vendas. Essa combinação é o que diferencia o meu trabalho:
-              entendo como uma venda acontece na prática e sei transformar isso em sistema.
+              Sou técnico em informática e engenheiro de computação. Mas o que mais
+              moldou o meu trabalho foi o estágio de desenvolvimento: lá, vivi de perto
+              o processo de vendas de uma empresa e desenvolvi do zero um sistema
+              construído em volta dele.
             </p>
             <p>
-              Comecei trabalhando como estagiário e, ao perceber que muitas empresas
-              precisavam de sistemas mais adequados à sua rotina, decidi abrir meu próprio
-              negócio. Desde então, desenvolvi sistemas para empresas locais, ajudando
-              negócios a sair do papel e de planilhas confusas e a organizar o processo
-              comercial. Esses softwares também ajudaram empresas a gerar vendas reais.
+              Foi ali que aprendi como uma venda funciona na prática e como um sistema
+              pode ajudar em cada etapa dela. Depois, percebi que muitas empresas
+              precisavam disso e decidi abrir meu próprio negócio.
             </p>
             <p>
-              Hoje, quero levar essa experiência para mais empresas, de diferentes
-              segmentos, com sistemas que respeitem a forma de trabalhar de cada uma.
+              Desde então, desenvolvo sistemas para empresas locais, ajudando negócios
+              a sair do papel e das planilhas confusas e a organizar o processo comercial.
+              Hoje quero levar essa experiência para mais empresas, de qualquer segmento.
             </p>
           </div>
           <aside className="presence-proof" aria-label="Experiência profissional">
             <p>Sistemas para todo o processo comercial: captação, negociação, metas e pós-venda.</p>
             <div className="presence-credentials">
-              <span>Experiência no ramo de vendas</span>
+              <span>Vivência em processo de vendas</span>
               <span>Engenheiro de computação</span>
               <span>Técnico em informática</span>
               <span>{location}</span>

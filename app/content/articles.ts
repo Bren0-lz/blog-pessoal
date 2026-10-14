@@ -21,50 +21,47 @@ export const articles: Article[] = [
     slug: "seu-crm-organiza-ou-ajuda-a-vender",
     category: "CRM & VENDAS",
     title: "Seu CRM organiza contatos ou ajuda a vender?",
-    description: "Um CRM pode só guardar dados ou apoiar cada etapa da venda: captação, negociação, metas e pós-venda. Veja como saber em qual situação está o seu.",
+    description: "Dá para ter um CRM cheio de informação e, mesmo assim, ninguém saber o que fazer com ela. Veja como descobrir se o seu está ajudando a vender.",
     date: "02 out 2026",
     readingTime: "3 min de leitura",
     featured: true,
     sections: [
       {
         paragraphs: [
-          "Você abre o CRM e encontra contatos, telefones e algumas anotações. Mas ele consegue dizer de onde vêm os melhores clientes, em que etapa as negociações costumam parar, se a meta do mês está no caminho e quem não compra há algum tempo? É nessa hora que dá para perceber se o sistema ajuda a vender ou apenas guarda informações.",
-          "Organizar o cadastro é importante. O problema aparece quando a equipe gasta tempo preenchendo campos que ninguém usa para decidir nada. Um sistema comercial precisa partir de como a empresa vende, e não só dos dados que ela tem.",
+          "Uma das coisas que mais aprendi no estágio foi essa: dá para ter um CRM cheio de informação e, mesmo assim, ninguém saber o que fazer com ela. Lá, acompanhei de perto como a empresa vendia e desenvolvi o sistema do zero em cima desse processo. Foi quando percebi que o problema quase nunca é falta de dado.",
+          "Então, se você já tem um CRM, faça um teste rápido. Ele te mostra de onde vêm os seus melhores clientes? Em que etapa as vendas costumam travar? Se a meta do mês vai ser batida? Quem parou de comprar? Se a resposta for \"não sei\" para quase tudo, ele está organizando contatos, mas não está ajudando a vender.",
         ],
       },
       {
-        heading: "Na captação: de onde vêm os clientes?",
+        heading: "Captação: saber de onde o cliente veio",
         paragraphs: [
-          "Se os contatos chegam por canais diferentes, como indicação, redes sociais, visita à loja ou anúncio, vale registrar essa origem desde o início. Com o tempo, ela mostra quais canais trazem clientes que realmente compram, e não só curiosos.",
-          "Isso ajuda a decidir onde investir tempo e dinheiro na divulgação e a dar prioridade aos contatos com mais chance de virar venda.",
+          "Parece bobo, mas é uma das informações mais úteis que existem. Indicação, Instagram, anúncio, alguém que passou na frente da loja. Quando isso fica registrado, depois de alguns meses você consegue ver quais canais trazem gente que compra de verdade, e não só gente perguntando preço.",
         ],
       },
       {
-        heading: "Na negociação: onde as vendas param?",
+        heading: "Negociação: onde as vendas param",
         paragraphs: [
-          "Etapas bem definidas mostram quantas negociações estão em cada ponto e onde elas costumam travar. Se muitas param depois do orçamento, a conversa é uma. Se param antes da visita técnica, é outra.",
-          "Cada negociação também precisa de um responsável e de um próximo passo com data. Assim, o andamento não depende da memória de ninguém.",
+          "Cada empresa vende de um jeito, então as etapas precisam ser as suas, e não as que vieram prontas na ferramenta. Com elas bem definidas, fica fácil ver onde as negociações se acumulam.",
+          "E toda negociação precisa de duas coisas: alguém responsável e um próximo passo com data. Sem isso, tudo depende da memória do vendedor, e memória falha.",
         ],
       },
       {
-        heading: "Nas metas: dá para saber antes do fim do mês?",
+        heading: "Metas: acompanhar durante o mês, e não depois",
         paragraphs: [
-          "Com as negociações registradas por etapa e por valor, o sistema consegue mostrar, durante o mês, quanto já foi vendido e quanto ainda está em negociação.",
-          "Assim, o gestor pode agir enquanto ainda há tempo: reforçar a prospecção, apoiar um vendedor ou dar atenção às propostas mais próximas de fechar. Sem isso, o resultado só aparece no fechamento.",
+          "Se o resultado só aparece no fechamento, não tem mais o que fazer. Quando o sistema mostra quanto já foi vendido e quanto ainda está em negociação, o gestor consegue agir no meio do caminho: reforçar a prospecção, ajudar um vendedor ou focar nas propostas mais perto de fechar.",
         ],
       },
       {
-        heading: "Depois da venda: o cliente volta?",
+        heading: "Pós-venda: o cliente que já comprou",
         paragraphs: [
-          "Quem já comprou conhece a empresa e costuma ser mais fácil de atender de novo. Mesmo assim, muitos sistemas param de olhar para o cliente depois do pagamento.",
-          "O histórico de compras pode indicar quem está há muito tempo sem comprar e quando vale fazer um novo contato. É uma das formas mais simples de vender mais sem depender apenas de clientes novos.",
+          "Esse é o mais esquecido. Muito sistema simplesmente para de olhar para o cliente depois que ele paga. Só que quem já comprou e gostou costuma ser o cliente mais fácil de vender de novo.",
         ],
       },
       {
-        heading: "Comece pela etapa que mais pesa",
+        heading: "Por onde eu começaria",
         paragraphs: [
-          "Não é preciso mudar tudo de uma vez. Escolha a etapa em que a empresa mais perde vendas hoje e comece por ela. Depois, confira se o resultado melhorou antes de avançar para a próxima.",
-          "É assim que penso um sistema comercial: a partir do que funciona em vendas, e não só a partir do cadastro.",
+          "Eu não tentaria resolver tudo de uma vez. Escolheria a etapa em que a empresa mais perde venda hoje, melhoraria essa parte e só depois partiria para a próxima.",
+          "É assim que eu trabalho: primeiro entendo como a empresa vende, depois penso no sistema.",
         ],
       },
     ],
@@ -73,42 +70,41 @@ export const articles: Article[] = [
     slug: "prospeccao-quais-contatos-merecem-atencao",
     category: "PROSPECÇÃO & CAPTAÇÃO",
     title: "Prospecção: como saber quais contatos merecem mais atenção",
-    description: "Nem todo contato tem a mesma chance de comprar. Veja como registrar a origem e qualificar os interessados para a equipe investir tempo onde vale mais.",
+    description: "Quando todo contato é tratado igual, o vendedor gasta tempo com quem só estava pesquisando. Veja como separar quem precisa de atenção primeiro.",
     date: "14 out 2026",
     readingTime: "3 min de leitura",
     sections: [
       {
         paragraphs: [
-          "Uma equipe pequena não consegue dar a mesma atenção a todos os contatos. Quando tudo é tratado igual, o vendedor gasta horas com quem só estava pesquisando e responde tarde a quem já queria comprar.",
-          "Prospectar bem não é só conseguir mais contatos. É saber de onde vêm os melhores e o que fazer com cada um.",
+          "Se a sua equipe é pequena, ela não consegue dar a mesma atenção para todo mundo que entra em contato. E quando tudo é tratado igual, acontece o pior cenário: o vendedor passa a tarde com quem só estava pesquisando e responde tarde quem já estava pronto para comprar.",
+          "Por isso, para mim, prospectar bem não é só conseguir mais contatos. É saber quais deles merecem atenção primeiro.",
         ],
       },
       {
-        heading: "Registre de onde cada contato veio",
+        heading: "Comece registrando a origem",
         paragraphs: [
-          "Indicação, anúncio, redes sociais, visita, lista de prospecção. Parece um detalhe, mas é a origem que mostra, depois de alguns meses, quais canais trazem clientes que fecham negócio. Sem ela, a empresa decide onde investir na divulgação por impressão.",
-          "No sistema, a origem pode ser escolhida em uma lista simples no momento do cadastro. Quanto mais fácil for registrar, maior a chance de a equipe fazer isso.",
+          "Toda vez que chegar um contato novo, anote de onde ele veio. Pode ser uma lista simples no cadastro: indicação, Instagram, Google, anúncio, visita. Quanto mais fácil for preencher, maior a chance de a equipe realmente preencher.",
+          "Depois de alguns meses, essa informação faz muita diferença. Você para de decidir onde investir em divulgação no achismo e passa a decidir com base em quem realmente comprou.",
         ],
       },
       {
-        heading: "Combine o que é um contato qualificado",
+        heading: "Defina o que é um bom contato para a sua empresa",
         paragraphs: [
-          "Cada negócio tem seus sinais: região atendida, tamanho do pedido, prazo para comprar, quem decide. Definir dois ou três critérios ajuda a separar quem precisa de atenção agora de quem pode receber um contato mais tarde.",
-          "Imagine uma empresa de climatização. Um pedido de orçamento para uma obra com data marcada pede resposta rápida. Uma pergunta genérica sobre preços pode seguir um acompanhamento mais leve.",
+          "Isso muda de negócio para negócio. Pode ser a região, o tamanho do pedido, o prazo para comprar ou se a pessoa com quem você está falando é quem decide. Dois ou três critérios já bastam.",
+          "Um exemplo: um pedido de orçamento com data para começar pede resposta rápida. Já alguém perguntando preço, sem muita informação, pode receber um acompanhamento mais leve, sem ser esquecido.",
         ],
       },
       {
-        heading: "Distribua para a pessoa certa",
+        heading: "Deixe claro quem atende cada contato",
         paragraphs: [
-          "Quando chega um novo contato, quem atende? Regras simples, como região, tipo de produto ou rodízio entre vendedores, evitam que o pedido fique parado ou que dois vendedores falem com o mesmo cliente.",
-          "O sistema pode fazer essa distribuição e avisar o responsável, junto com o que já se sabe sobre o contato.",
+          "Contato sem dono fica parado. Ou pior: dois vendedores falam com o mesmo cliente. Uma regra simples resolve, seja por região, por tipo de produto ou em rodízio.",
+          "O sistema pode fazer essa distribuição sozinho e já avisar o vendedor com tudo o que se sabe sobre o contato.",
         ],
       },
       {
-        heading: "Meça o que vira venda",
+        heading: "Depois, olhe os números",
         paragraphs: [
-          "Depois de alguns meses, compare: quantos contatos vieram de cada canal e quantos viraram venda? Quanto tempo a equipe levou para responder? Essas respostas mostram onde vale insistir e o que pode ser deixado de lado.",
-          "Com esses números, a prospecção deixa de ser tentativa e erro e passa a seguir o que já deu resultado na sua empresa.",
+          "Quantos contatos vieram de cada canal? Quantos viraram venda? Quanto tempo a equipe demorou para responder? Com essas respostas na mão, fica bem mais fácil saber onde insistir e o que dá para deixar de lado.",
         ],
       },
     ],
@@ -123,36 +119,36 @@ export const articles: Article[] = [
     sections: [
       {
         paragraphs: [
-          "Em muitas empresas, a meta do mês só é conferida no último dia. Se não foi batida, resta explicar o motivo. Acompanhar ao longo do mês muda isso: dá tempo de reforçar a prospecção, priorizar negociações ou ajustar a estratégia.",
-          "Para isso, a empresa precisa enxergar duas coisas: o que já foi vendido e o que ainda está em negociação.",
+          "Em muita empresa, a meta só é conferida no último dia do mês. Bateu, ótimo. Não bateu, resta explicar o porquê. O problema é que aí já não dá para fazer nada.",
+          "Acompanhar durante o mês muda isso. Dá tempo de reforçar a prospecção, focar nas negociações mais quentes ou ajudar quem está com dificuldade. Para isso, você precisa enxergar duas coisas: o que já foi vendido e o que ainda está em negociação.",
         ],
       },
       {
-        heading: "Desenhe o funil a partir de como vocês vendem",
+        heading: "O funil precisa ser o seu",
         paragraphs: [
-          "As etapas do funil devem refletir o caminho real da venda na sua empresa, como primeiro contato, visita, orçamento, negociação e fechamento. Copiar etapas genéricas de outra ferramenta costuma gerar um funil que ninguém consegue preencher.",
-          "Cada etapa precisa de um critério claro. O que faz uma negociação sair do orçamento e passar para a negociação? Se cada vendedor entende de um jeito, os números deixam de ser comparáveis.",
+          "Um erro comum é usar etapas genéricas que vieram prontas em alguma ferramenta. O funil tem que mostrar o caminho real da venda na sua empresa: primeiro contato, visita, orçamento, negociação, fechamento, ou o que fizer sentido para vocês.",
+          "E cada etapa precisa de uma regra clara. Quando uma negociação sai do orçamento e passa para a negociação? Se cada vendedor entende de um jeito, os números não servem para nada.",
         ],
       },
       {
-        heading: "Observe quanto cada etapa costuma converter",
+        heading: "Use o histórico para prever",
         paragraphs: [
-          "Com o histórico, dá para saber, aproximadamente, quantas negociações de cada etapa costumam virar venda. Se de cada dez orçamentos três costumam fechar, já é possível estimar o que esperar do que está em aberto.",
-          "Essa conta não é exata, mas ajuda a perceber cedo quando o volume em negociação não é suficiente para chegar à meta.",
+          "Com o tempo, dá para saber mais ou menos quantas negociações de cada etapa costumam fechar. Se de cada dez orçamentos uns três viram venda, você já consegue estimar o que esperar do que está em aberto.",
+          "Não é uma conta exata, mas avisa cedo quando o volume em negociação não vai ser suficiente para chegar na meta.",
         ],
       },
       {
-        heading: "Metas por vendedor, e não só da empresa",
+        heading: "Meta por vendedor, e não só da empresa",
         paragraphs: [
-          "Uma meta geral esconde diferenças. Um vendedor pode estar acima do esperado enquanto outro precisa de ajuda. Ver o resultado de cada um, junto com as negociações em aberto, permite orientar a equipe de forma mais justa.",
-          "Também vale acompanhar atividades, como contatos feitos e orçamentos enviados. Elas mostram o esforço antes de o resultado aparecer.",
+          "A meta geral esconde muita coisa. Um vendedor pode estar indo muito bem enquanto outro precisa de ajuda. Vendo o resultado de cada um, junto com o que ele tem em negociação, fica mais fácil orientar a equipe de um jeito justo.",
+          "Eu também gosto de acompanhar as atividades, como contatos feitos e orçamentos enviados, porque elas mostram o esforço antes de o resultado aparecer.",
         ],
       },
       {
-        heading: "Use os números para conversar, não só para cobrar",
+        heading: "Número serve para conversar",
         paragraphs: [
-          "Um painel de metas não resolve nada sozinho. Ele serve para a reunião da semana: onde estamos, o que falta e quais negociações merecem atenção.",
-          "Quando os números ajudam a equipe a vender, ela passa a ter um motivo para manter o sistema atualizado.",
+          "Um painel de metas sozinho não resolve nada. Ele funciona de verdade na reunião da semana: onde estamos, o que falta e quais negociações merecem atenção.",
+          "Quando a equipe percebe que os números ajudam a vender, e não só a cobrar, ela passa a manter o sistema atualizado por conta própria.",
         ],
       },
     ],
@@ -161,46 +157,46 @@ export const articles: Article[] = [
     slug: "pos-venda-e-recompra",
     category: "PÓS-VENDA & RECOMPRA",
     title: "Quem já comprou é o cliente mais fácil de esquecer",
-    description: "Depois do pagamento, muitos clientes somem do radar da empresa. Veja como o histórico de compras e alguns lembretes simples ajudam a vender de novo.",
+    description: "Depois do pagamento, muito cliente some do radar da empresa. Veja como o histórico de compras e alguns lembretes simples ajudam a vender de novo.",
     date: "07 out 2026",
     readingTime: "3 min de leitura",
     sections: [
       {
         paragraphs: [
-          "Boa parte do esforço comercial vai para conquistar novos clientes. Enquanto isso, quem já comprou, conhece a empresa e ficou satisfeito muitas vezes nunca mais recebe um contato.",
-          "Em muitos negócios, vender de novo para um cliente atual é mais simples do que convencer alguém que nunca comprou. Para isso, a empresa precisa lembrar que ele existe.",
+          "A gente gasta muita energia para conquistar cliente novo. Enquanto isso, quem já comprou, gostou do atendimento e conhece a empresa muitas vezes nunca mais recebe uma mensagem sequer.",
+          "Na maioria dos negócios, vender de novo para quem já é cliente é bem mais fácil do que convencer alguém do zero. Mas, para isso, a empresa precisa lembrar que esse cliente existe.",
         ],
       },
       {
-        heading: "Guarde o histórico de compras",
+        heading: "Tenha o histórico de compras à mão",
         paragraphs: [
-          "O que o cliente comprou, quando e em que condições. Com esse histórico, o vendedor retoma a conversa com contexto, sem perguntar tudo de novo, e oferece o que faz sentido para aquele cliente.",
+          "O que o cliente comprou, quando e em quais condições. Com isso, o vendedor retoma a conversa sabendo com quem está falando, sem fazer o cliente repetir tudo, e consegue oferecer algo que faça sentido para ele.",
         ],
       },
       {
-        heading: "Saiba quando o cliente deveria voltar",
+        heading: "Saiba quando ele deveria voltar",
         paragraphs: [
-          "Muitos produtos e serviços têm um ciclo natural: manutenção anual, reposição de estoque, renovação de contrato. O sistema pode avisar quando esse prazo se aproxima e criar uma tarefa para o responsável.",
-          "Também vale observar quem costumava comprar com frequência e parou. Uma lista de clientes inativos já é um bom ponto de partida para a equipe.",
+          "Muita coisa tem um ciclo natural: manutenção anual, reposição de estoque, renovação de contrato. O sistema pode avisar quando esse prazo estiver chegando e já criar a tarefa para o responsável.",
+          "Também vale ficar de olho em quem comprava com frequência e parou. Só uma lista de clientes inativos já rende um bom trabalho para a equipe.",
         ],
       },
       {
-        heading: "Acompanhe a experiência depois da entrega",
+        heading: "Pergunte se deu tudo certo",
         paragraphs: [
-          "Um contato alguns dias depois da compra, para saber se está tudo certo, mostra cuidado e ajuda a resolver problemas antes que virem reclamação. É também um bom momento para entender o que o cliente achou.",
+          "Uma mensagem alguns dias depois da compra, só para saber se está tudo certo, mostra cuidado. E ajuda a resolver um problema antes que ele vire reclamação.",
         ],
       },
       {
-        heading: "Peça indicações no momento certo",
+        heading: "Peça indicação na hora certa",
         paragraphs: [
-          "Um cliente satisfeito pode indicar outros. Registrar quem indicou quem ajuda a agradecer e a perceber quais clientes trazem novos negócios.",
-          "Esse pedido funciona melhor depois de uma boa experiência, e não como uma mensagem automática enviada para todos.",
+          "Cliente satisfeito indica. Registrar quem indicou quem ajuda a agradecer e mostra quais clientes trazem mais negócios.",
+          "Só que esse pedido funciona melhor logo depois de uma boa experiência, e não como mensagem automática disparada para todo mundo.",
         ],
       },
       {
-        heading: "Comece pelo que já está no seu cadastro",
+        heading: "Dá para começar hoje",
         paragraphs: [
-          "Não é preciso um programa de fidelidade complexo. Comece listando quem não compra há mais tempo que o normal e faça alguns contatos. O resultado mostra se vale transformar isso em uma rotina dentro do sistema.",
+          "Você não precisa de um programa de fidelidade complicado. Puxe do seu cadastro quem não compra há mais tempo que o normal e faça alguns contatos. O resultado vai mostrar se vale transformar isso em rotina dentro do sistema.",
         ],
       },
     ],
@@ -209,47 +205,47 @@ export const articles: Article[] = [
     slug: "onde-um-sistema-encontra-receita-perdida",
     category: "PROCESSO COMERCIAL",
     title: "Onde sua empresa pode estar perdendo oportunidades de venda",
-    description: "Da captação ao pós-venda, há pontos em que as vendas escapam sem ninguém perceber. Saiba onde procurar antes de culpar o preço ou o mercado.",
+    description: "Antes de culpar o preço ou o mercado, vale olhar o caminho do cliente. Muita venda se perde em pontos que ninguém está acompanhando.",
     date: "25 set 2026",
     readingTime: "3 min de leitura",
     sections: [
       {
         paragraphs: [
-          "Quando as vendas não vão bem, a primeira suspeita costuma ser o preço ou o mercado. Às vezes é isso mesmo. Mas, muitas vezes, as oportunidades se perdem em pontos do processo que ninguém está olhando.",
-          "Vale percorrer o caminho do cliente, do primeiro contato à recompra, e procurar onde ele fica sem atenção.",
+          "Quando as vendas caem, a primeira culpa costuma ir para o preço ou para o mercado. Às vezes é isso mesmo. Mas muita venda se perde em pontos do processo que ninguém está olhando.",
+          "O exercício que eu sugiro é simples: percorrer o caminho do cliente, do primeiro contato até a recompra, e procurar onde ele fica sem atenção.",
         ],
       },
       {
         heading: "Antes da primeira conversa",
         paragraphs: [
-          "Contatos que chegam e não são registrados, pedidos que ninguém sabe quem deve responder, canais de divulgação que ninguém mede. Sem saber de onde vêm os clientes, a empresa não sabe onde investir.",
-          "Um contato que chega pelas redes sociais no sábado e só é visto na terça já começa a conversa em desvantagem. Registrar a entrada, a origem e um responsável ajuda a medir esse tempo e a corrigir a distribuição.",
+          "Contato que chega e não é registrado. Pedido que ninguém sabe quem deve responder. Divulgação que ninguém mede. Um cliente que manda mensagem no sábado e só recebe resposta na terça já começa a conversa em desvantagem.",
+          "Registrar quando o contato chegou, de onde veio e quem é o responsável já ajuda a enxergar esse tempo e corrigir a distribuição.",
         ],
       },
       {
         heading: "Durante a negociação",
         paragraphs: [
-          "Propostas enviadas sem próximo passo, negociações que trocam de vendedor sem histórico, orçamentos parados na mesma etapa por semanas. Etapas bem definidas mostram onde as negociações se acumulam.",
-          "Quando um ponto do funil concentra muitas perdas, ele indica o que precisa mudar: a forma de apresentar a proposta, o tempo de resposta ou o perfil dos contatos que chegam até ali.",
+          "Proposta enviada sem próximo passo. Negociação que troca de vendedor e o histórico não vai junto. Orçamento parado na mesma etapa há semanas.",
+          "Quando uma etapa do funil concentra muitas perdas, ela está mostrando onde mexer: na forma de apresentar a proposta, no tempo de resposta ou no tipo de contato que está chegando até ali.",
         ],
       },
       {
         heading: "No fechamento do mês",
         paragraphs: [
-          "Se a equipe só descobre no último dia que não bateu a meta, já não há o que fazer. Acompanhar o que está em negociação ao longo do mês permite reforçar a prospecção ou dar atenção às propostas mais próximas de fechar.",
+          "Se a equipe só descobre no último dia que não bateu a meta, não tem mais o que fazer. Acompanhar o que está em negociação ao longo do mês dá tempo de reagir.",
         ],
       },
       {
         heading: "Depois da venda",
         paragraphs: [
-          "Clientes que compraram uma vez e nunca mais foram procurados. Problemas na entrega que ninguém acompanhou. Indicações que poderiam ter sido pedidas e não foram. O pós-venda costuma ser a etapa mais esquecida e uma das mais simples de melhorar.",
+          "Cliente que comprou uma vez e nunca mais foi procurado. Problema na entrega que ninguém acompanhou. Indicação que poderia ter sido pedida e não foi. Na minha opinião, o pós-venda é a etapa mais esquecida e uma das mais simples de melhorar.",
         ],
       },
       {
-        heading: "Escolha um ponto para começar",
+        heading: "Escolha um ponto e comece por ele",
         paragraphs: [
-          "Antes de pedir uma nova função, acompanhe alguns clientes do primeiro contato ao pós-venda. Procure onde faltou informação, onde houve espera e onde ninguém ficou responsável.",
-          "Escolha a falha que mais pesa nas vendas e faça um ajuste que a equipe consiga usar. Depois, confira se o resultado melhorou. Isso dá uma base mais segura para decidir o próximo investimento no sistema.",
+          "Antes de pedir uma função nova no sistema, acompanhe alguns clientes do começo ao fim. Veja onde faltou informação, onde alguém ficou esperando e onde ninguém era responsável.",
+          "Pegue a falha que mais pesa, ajuste e confira se melhorou. Isso dá muito mais segurança para decidir o próximo investimento.",
         ],
       },
     ],
@@ -258,42 +254,42 @@ export const articles: Article[] = [
     slug: "automacao-comercial-depois-do-sinal-de-compra",
     category: "CAPTAÇÃO & AUTOMAÇÃO",
     title: "Automação comercial: como responder quando o cliente demonstra interesse",
-    description: "Veja como usar tarefas e avisos para dar atenção a um cliente interessado, sem exagerar nas mensagens ou tratar todo contato como urgente.",
+    description: "Automação ajuda a não deixar um cliente interessado esperando, mas, se for mal pensada, vira só mais notificação. Veja onde ela funciona de verdade.",
     date: "18 set 2026",
     readingTime: "2 min de leitura",
     sections: [
       {
         paragraphs: [
-          "Um cliente responde à proposta perguntando sobre o prazo de entrega. Outro volta a entrar em contato depois de alguns meses. São situações em que a equipe precisa perceber o interesse e conseguir responder com as informações certas.",
-          "A automação pode ajudar a encaminhar o pedido, avisar o responsável e criar uma tarefa. Para funcionar bem, as regras precisam considerar o histórico da conversa e o tipo de resposta que o cliente espera.",
+          "Um cliente responde à proposta perguntando o prazo de entrega. Outro volta a falar com a empresa depois de meses sumido. Os dois estão mostrando interesse, e a equipe precisa perceber isso e responder com a informação certa.",
+          "Automação ajuda muito aqui: encaminha o pedido, avisa o responsável, cria a tarefa. Mas, se for mal pensada, vira só mais um monte de notificação que ninguém lê.",
         ],
       },
       {
-        heading: "Entenda o pedido antes de criar urgência",
+        heading: "Nem todo interesse é urgente",
         paragraphs: [
-          "Uma dúvida sobre preço pode ser uma primeira pesquisa ou a última pergunta antes de fechar uma compra. O histórico ajuda a distinguir essas situações. Quem é o contato? Já existe uma proposta? O que ficou combinado?",
-          "O aviso ao vendedor precisa trazer esse contexto. Receber apenas uma notificação de novo interesse obriga a pessoa a procurar tudo de novo antes de conseguir ajudar.",
+          "Uma pergunta sobre preço pode ser só uma pesquisa ou a última dúvida antes de fechar. O que diferencia uma coisa da outra é o histórico: quem é esse contato, se já existe proposta, o que ficou combinado.",
+          "Por isso, o aviso para o vendedor tem que vir com esse contexto. Receber só \"novo interesse\" obriga a pessoa a procurar tudo de novo antes de conseguir ajudar.",
         ],
       },
       {
-        heading: "Encaminhe para quem pode responder",
+        heading: "Mande para quem consegue responder",
         paragraphs: [
-          "Uma pergunta técnica pode precisar de outra pessoa, enquanto uma alteração na proposta pode ficar com o vendedor que já atende o cliente. Definir esses caminhos evita que o pedido circule sem dono.",
-          "Também vale combinar prazos de resposta possíveis de cumprir. Se tudo aparece como urgente, a equipe acaba sem um critério para organizar o trabalho.",
+          "Uma dúvida técnica talvez precise de outra pessoa. Uma mudança na proposta fica com o vendedor que já atende o cliente. Deixar esses caminhos definidos evita que o pedido fique rodando sem dono.",
+          "E combine prazos de resposta que a equipe consiga cumprir. Se tudo é urgente, nada é.",
         ],
       },
       {
-        heading: "Deixe espaço para uma conversa de verdade",
+        heading: "Automatize o que é repetitivo, não a conversa",
         paragraphs: [
-          "Uma confirmação automática de recebimento pode ser útil. Já uma dúvida específica costuma pedir alguém que leia a mensagem e responda ao que foi perguntado. Escolher o que automatizar exige esse cuidado.",
-          "Evite programar contatos repetidos sem considerar as respostas do cliente. Se ele pediu para conversar no mês seguinte, esse combinado precisa orientar as próximas ações.",
+          "Uma confirmação automática de recebimento é útil. Agora, uma dúvida específica pede alguém lendo e respondendo de verdade.",
+          "E nada de programar mensagens repetidas ignorando o que o cliente respondeu. Se ele pediu para conversar no mês que vem, é isso que tem que guiar o próximo passo.",
         ],
       },
       {
-        heading: "Confira se os avisos estão ajudando",
+        heading: "Pergunte para a equipe se está ajudando",
         paragraphs: [
-          "Depois de colocar uma regra em uso, converse com a equipe. Os avisos chegam à pessoa certa? Trazem informação suficiente? Algum deles se repete sem necessidade?",
-          "Ajuste a automação conforme essas respostas. Ela precisa facilitar o atendimento e reduzir esquecimentos, sem criar mais uma lista de notificações que ninguém consegue acompanhar.",
+          "Depois de colocar uma regra para funcionar, converse com quem recebe os avisos. Eles chegam para a pessoa certa? Têm informação suficiente? Algum se repete à toa?",
+          "Ajuste com base nisso. A automação tem que tirar trabalho da equipe, e não criar mais.",
         ],
       },
     ],
@@ -302,42 +298,41 @@ export const articles: Article[] = [
     slug: "quando-vale-construir-um-crm-sob-medida",
     category: "SOFTWARE SOB MEDIDA",
     title: "Quando vale construir um CRM sob medida?",
-    description: "Você precisa de um sistema próprio ou pode ajustar o que já usa? Veja o que considerar antes de investir em um CRM sob medida.",
+    description: "Nem toda empresa precisa de um sistema feito do zero. Veja quando vale complementar o que você já usa e quando faz sentido construir um sistema próprio.",
     date: "03 out 2026",
     readingTime: "3 min de leitura",
     sections: [
       {
         paragraphs: [
-          "Ter um processo diferente não significa que sua empresa precisa de um CRM próprio. Muitas necessidades podem ser atendidas com uma ferramenta pronta bem configurada. Antes de desenvolver, eu procuraria entender o que realmente está impedindo a equipe de trabalhar melhor.",
-          "Eu começaria por uma pergunta: qual dificuldade justifica esse investimento? Se uma ferramenta pronta consegue resolvê-la com uma configuração razoável, vale avaliar esse caminho antes de partir para um projeto próprio.",
+          "Essa é uma pergunta que eu gosto de responder com sinceridade: nem toda empresa precisa de um CRM feito do zero. Muita coisa se resolve com uma ferramenta pronta bem configurada, ou complementando o sistema que já existe.",
+          "O que eu procuro entender primeiro é o que está impedindo a equipe de vender melhor. A partir daí, fica mais fácil ver qual caminho vale o investimento.",
         ],
       },
       {
         heading: "O problema é a ferramenta ou a configuração?",
         paragraphs: [
-          "Um CRM pode parecer inadequado porque as etapas estão mal definidas, os campos são excessivos ou ninguém combinou como registrar os retornos. Nesses casos, revisar a configuração e o processo pode ajudar mais do que trocar de software.",
-          "Imagine uma equipe que deixa propostas sem acompanhamento. Se a ferramenta já permite criar tarefas e responsáveis, talvez falte uma regra de uso. Se a próxima ação depende de dados espalhados por outros sistemas e exige conferências manuais constantes, existe uma questão diferente a investigar.",
+          "Às vezes o CRM parece ruim porque as etapas estão mal definidas, tem campo demais ou ninguém combinou como usar. Nesses casos, arrumar o processo resolve mais do que trocar de software.",
+          "Agora, se para fechar uma venda o vendedor precisa consultar um sistema, fazer conta numa planilha e depois registrar tudo no CRM, aí já é outra história.",
         ],
       },
       {
-        heading: "Procure o trabalho que acontece por fora",
+        heading: "Olhe para o que acontece por fora",
         paragraphs: [
-          "Observe as planilhas que a equipe mantém por fora e as informações que precisa conferir por mensagem. Quanto tempo isso toma? O que acontece quando alguém esquece de atualizar um desses lugares? Essas respostas ajudam a identificar o que o sistema atual não está atendendo.",
-          "Imagine que, para enviar uma proposta, o vendedor consulta disponibilidade em um sistema, calcula condições em uma planilha e registra a negociação no CRM. Pode fazer sentido integrar essas ferramentas antes de construir um CRM inteiro. O desenvolvimento sob medida também pode resolver apenas uma parte do trabalho.",
+          "Repare nas planilhas paralelas que a equipe mantém e nas informações que só existem no WhatsApp. Quanto tempo isso toma? O que acontece quando alguém esquece de atualizar? Essas respostas mostram o que o sistema atual não está dando conta.",
+          "Muitas vezes, integrar as ferramentas ou desenvolver só a parte que falta já resolve. Em outros casos, faz mais sentido um sistema novo, pensado do zero para o jeito que a empresa vende. Foi o que aconteceu no meu estágio: o sistema foi construído do zero, em volta do processo de vendas da empresa.",
         ],
       },
       {
         heading: "Compare o custo de manter, não só de construir",
         paragraphs: [
-          "Uma ferramenta pronta tem assinatura, configuração e possíveis limites. Um sistema próprio exige desenvolvimento, hospedagem, manutenção e alguém responsável por sua evolução. Nenhuma opção elimina o trabalho de cuidar do processo.",
-          "Ao comparar as alternativas, confira quem vai usar, quais integrações serão necessárias e quem poderá ajudar quando houver um problema. Peça para ver como cada opção atende às tarefas da sua equipe, além da apresentação inicial.",
+          "Ferramenta pronta tem assinatura, configuração e limites. Sistema próprio tem desenvolvimento, hospedagem e manutenção. Nenhuma das duas opções elimina o trabalho de cuidar do processo.",
+          "Na hora de comparar, pense em quem vai usar, quais integrações vão ser necessárias e quem vai te ajudar quando der problema.",
         ],
       },
       {
-        heading: "Resolva uma parte antes de ampliar",
+        heading: "Comece pequeno",
         paragraphs: [
-          "Se o desenvolvimento fizer sentido, a primeira versão não precisa reproduzir tudo que existe no mercado. Ela pode começar por um fluxo bem definido, como acompanhar propostas com suas condições e próximos passos.",
-          "Antes de ampliar, confira se a equipe consegue usar essa primeira versão e se precisa de menos controles por fora. Também precisa haver alguém responsável pela manutenção. São esses cuidados que ajudam um CRM próprio a continuar útil depois da entrega.",
+          "Se o sistema próprio fizer sentido, a primeira versão não precisa ter tudo. Ela pode começar por uma parte bem definida do processo, entrar em uso rápido e crescer a partir do que a equipe realmente precisa.",
         ],
       },
     ],
@@ -346,42 +341,42 @@ export const articles: Article[] = [
     slug: "proposta-enviada-precisa-de-proximo-passo",
     category: "PROPOSTAS & NEGOCIAÇÃO",
     title: "Enviou a proposta. E agora?",
-    description: "Enviar o orçamento é uma etapa. Veja como organizar responsáveis, retornos e versões para acompanhar a negociação até uma decisão clara.",
+    description: "Enviar o orçamento não encerra a venda, só abre uma nova etapa. Veja como organizar responsáveis, retornos e versões até o cliente decidir.",
     date: "03 out 2026",
     readingTime: "3 min de leitura",
     sections: [
       {
         paragraphs: [
-          "Uma proposta enviada pode parecer uma tarefa concluída. Para a negociação, porém, ela abre uma nova etapa: o cliente precisa avaliar condições, esclarecer dúvidas e decidir. Sem um próximo passo, o acompanhamento acaba dependendo de alguém lembrar de perguntar como ficou.",
-          "Um sistema pode dar continuidade a esse trabalho, mas primeiro é preciso definir o que a equipe considera uma proposta em andamento. Apenas guardar um arquivo e marcar a data de envio não explica o que falta para chegar a uma decisão.",
+          "Muita gente trata o envio da proposta como tarefa concluída. Para a venda, na verdade, é ali que começa uma nova etapa: o cliente vai avaliar, tirar dúvidas e decidir.",
+          "Se ninguém define o próximo passo, o acompanhamento fica dependendo de alguém lembrar de perguntar \"e aí, como ficou?\".",
         ],
       },
       {
-        heading: "Registre o combinado junto com o orçamento",
+        heading: "Anote o combinado junto com o orçamento",
         paragraphs: [
-          "Além de valor e itens, vale registrar quem acompanha a negociação, qual versão foi enviada e o que ficou combinado com o cliente. Existe uma data para conversar novamente? Outra pessoa precisa aprovar? Alguma dúvida ficou pendente?",
-          "Imagine que o cliente vai discutir a proposta com o sócio na quinta-feira. Vocês podem combinar um retorno na sexta e deixar isso registrado. Assim, o vendedor sabe quando entrar em contato e pode perguntar como foi a conversa.",
+          "Além de valor e itens, vale registrar quem acompanha a negociação, qual versão foi enviada e o que ficou combinado. Tem data para conversar de novo? Outra pessoa precisa aprovar? Ficou alguma dúvida no ar?",
+          "Por exemplo: o cliente disse que vai conversar com o sócio na quinta. Combine um retorno na sexta e deixe isso registrado. Assim o vendedor sabe quando entrar em contato e já sabe o que perguntar.",
         ],
       },
       {
-        heading: "Dê um responsável a cada retorno",
+        heading: "Todo retorno precisa de um dono",
         paragraphs: [
-          "Defina quem vai fazer o retorno e deixe a tarefa visível para essa pessoa, com prazo e informação suficiente para agir. Se houver troca de vendedor, o histórico deve permitir que a conversa continue sem pedir ao cliente que explique tudo novamente.",
-          "O sistema pode destacar propostas com retorno vencido ou sem próxima ação. O objetivo é ajudar a equipe a identificar o que precisa de atenção, sem transformar cada negociação aberta em um alerta urgente.",
+          "Defina quem vai fazer o contato e deixe a tarefa visível para essa pessoa, com prazo e contexto. Se o vendedor mudar, o histórico tem que permitir continuar a conversa sem o cliente precisar explicar tudo de novo.",
+          "O sistema pode destacar as propostas com retorno atrasado ou sem próximo passo, mas sem transformar cada negociação aberta em alerta vermelho.",
         ],
       },
       {
-        heading: "Cuide das versões e das dúvidas",
+        heading: "Cuidado com as versões",
         paragraphs: [
-          "Durante uma negociação, escopo, prazo e condições podem mudar. Quando essas alterações ficam espalhadas em arquivos e mensagens, é fácil consultar uma proposta antiga ou perder o motivo de uma revisão.",
-          "Manter as versões ligadas à mesma oportunidade permite enxergar o que mudou e qual documento está em avaliação. Registrar dúvidas e objeções também ajuda a preparar o retorno: uma conversa sobre prazo exige uma abordagem diferente de uma conversa sobre preço.",
+          "Durante a negociação, prazo, escopo e condições mudam. Quando essas mudanças ficam espalhadas em arquivos e mensagens, é fácil alguém mandar a versão errada. Manter tudo ligado à mesma negociação resolve.",
+          "Registrar as objeções do cliente também ajuda a preparar o próximo contato. Conversar sobre prazo é bem diferente de conversar sobre preço.",
         ],
       },
       {
-        heading: "Acompanhar também é saber encerrar",
+        heading: "Saber encerrar também faz parte",
         paragraphs: [
-          "Nem toda proposta vai virar venda. A equipe precisa distinguir uma negociação ativa de uma decisão adiada ou de uma oportunidade encerrada. Deixar tudo aberto dificulta entender o que realmente está em andamento.",
-          "Ao encerrar, registre o motivo que o cliente informou. Se você não sabe por que ele deixou de responder, mantenha isso claro. Quando houver interesse futuro, combine uma data para retomar. E, se a decisão for não seguir, respeite esse encerramento.",
+          "Nem toda proposta vira venda, e tudo bem. O importante é separar o que está ativo do que foi adiado e do que acabou. Deixar tudo aberto só bagunça a visão da equipe.",
+          "Quando encerrar, anote o motivo que o cliente deu. Se ele só parou de responder, deixe isso claro também. E, se houver interesse mais para a frente, combine uma data para retomar.",
         ],
       },
     ],
@@ -390,42 +385,42 @@ export const articles: Article[] = [
     slug: "integrar-sistemas-sem-multiplicar-confusao",
     category: "INTEGRAÇÕES",
     title: "Integrar sistemas sem multiplicar a confusão",
-    description: "Antes de conectar suas ferramentas, defina quais informações precisam passar de uma para outra e o que fazer quando algo não chega como esperado.",
+    description: "Integrar evita retrabalho, mas, sem regra, só espalha o erro mais rápido. Veja o que definir antes de conectar as suas ferramentas.",
     date: "03 out 2026",
     readingTime: "3 min de leitura",
     sections: [
       {
         paragraphs: [
-          "Quando a equipe copia informações de um sistema para outro, a integração parece uma solução óbvia. Ela pode reduzir esse trabalho, mas conectar ferramentas sem definir as regras também pode espalhar dados incorretos com mais velocidade.",
-          "Antes de pensar na conexão técnica, eu acompanharia uma tarefa da equipe. Onde ela consulta os dados? O que copia para outra ferramenta? Quem confere o resultado? Isso ajuda a definir exatamente o que a integração precisa fazer.",
+          "Quando a equipe vive copiando informação de um sistema para outro, integrar parece a solução óbvia. E muitas vezes é. Mas integrar sem regra nenhuma só faz o erro se espalhar mais rápido.",
+          "Antes de pensar na parte técnica, eu sempre acompanho uma tarefa da equipe: onde ela consulta os dados, o que copia, quem confere. É isso que define o que a integração precisa fazer.",
         ],
       },
       {
-        heading: "Defina quem responde por cada informação",
+        heading: "Cada informação precisa de um dono",
         paragraphs: [
-          "Imagine uma operação que usa CRM e sistema financeiro. O CRM pode cuidar da negociação, enquanto o financeiro confirma pagamentos. Se os dois puderem alterar a situação de pagamento sem uma regra clara, a equipe pode encontrar respostas diferentes para a mesma pergunta.",
-          "Não é necessário que uma ferramenta seja a referência para tudo. O importante é decidir a origem de cada informação e o que acontece quando ela muda. Dados de contato, condições da proposta e pagamentos podem ter responsáveis e caminhos distintos.",
+          "Pense numa empresa que usa um CRM e um sistema financeiro. O CRM cuida da negociação, o financeiro confirma o pagamento. Se os dois podem mudar a situação do pagamento sem regra, cada um vai mostrar uma resposta diferente.",
+          "Não precisa existir um sistema que manda em tudo. Precisa estar claro de onde vem cada informação e o que acontece quando ela muda.",
         ],
       },
       {
-        heading: "Transfira o que a próxima tarefa precisa",
+        heading: "Leve só o que a próxima etapa precisa",
         paragraphs: [
-          "Sincronizar todos os campos nem sempre ajuda. Cada informação transferida cria uma responsabilidade: manter seu significado, respeitar quem pode acessá-la e cuidar de alterações futuras nas ferramentas.",
-          "Pense em uma venda aprovada que precisa virar um pedido. A integração pode começar com cliente, itens, condições aprovadas e identificação da negociação. Anotações internas que não ajudam a executar o pedido não precisam ser copiadas junto.",
+          "Sincronizar todos os campos parece prático, mas cada informação transferida vira mais uma coisa para manter.",
+          "Se uma venda aprovada precisa virar pedido, comece pelo essencial: cliente, itens, condições e a referência da negociação. Anotação interna que não ajuda a montar o pedido pode ficar onde está.",
         ],
       },
       {
-        heading: "Planeje o que acontece quando a conexão falha",
+        heading: "Pense no que acontece quando falhar",
         paragraphs: [
-          "Um serviço pode ficar indisponível ou recusar uma informação incompleta. A equipe precisa conseguir perceber que o pedido não chegou, entender o motivo e saber quem vai resolver. Uma integração silenciosa pode deixar a operação esperando por algo que nunca aconteceu.",
-          "Também é importante evitar que uma nova tentativa crie o mesmo pedido duas vezes. No desenho da solução, eu incluiria uma identificação da operação, um registro do resultado e uma forma de conferir o que está pendente. Esses cuidados protegem a continuidade do trabalho.",
+          "Porque vai falhar em algum momento. Um serviço sai do ar, uma informação chega incompleta. A equipe precisa perceber que o pedido não chegou, entender o motivo e saber quem resolve. Integração que falha em silêncio deixa todo mundo esperando por algo que nunca vai chegar.",
+          "Outro cuidado importante: evitar que uma nova tentativa crie o mesmo pedido duas vezes.",
         ],
       },
       {
-        heading: "Valide um caminho antes de conectar tudo",
+        heading: "Teste um caminho antes de ligar tudo",
         paragraphs: [
-          "Comece com um fluxo delimitado e confira situações diferentes: dados incompletos, alterações após o envio e tentativas repetidas. Envolva quem usa as ferramentas para confirmar se a informação chega no lugar e no momento necessários.",
-          "Depois, converse com a equipe para conferir se ela passou a copiar menos dados e se consegue perceber quando há um problema. Uma boa integração deve facilitar essas tarefas sem deixar as pessoas na dúvida sobre o que aconteceu.",
+          "Comece com um fluxo só e teste situações reais: dado incompleto, alteração depois do envio, tentativa repetida.",
+          "Depois, pergunte para a equipe se ela passou a copiar menos coisa e se percebe quando algo dá errado. Se a resposta for sim para as duas, a integração está cumprindo o papel dela.",
         ],
       },
     ],
@@ -434,42 +429,42 @@ export const articles: Article[] = [
     slug: "como-fazer-a-equipe-usar-o-novo-sistema",
     category: "EQUIPE & PROCESSOS",
     title: "Como fazer a equipe usar o novo sistema?",
-    description: "Se a equipe continua nas planilhas depois da entrega, vale olhar para a rotina. Veja como preparar a mudança e facilitar o uso do sistema.",
+    description: "Se a equipe continua na planilha depois da entrega, quase sempre existe um motivo prático. Veja como preparar a mudança e facilitar o uso do sistema.",
     date: "03 out 2026",
     readingTime: "3 min de leitura",
     sections: [
       {
         paragraphs: [
-          "O sistema está pronto, os acessos foram criados e a equipe participou de uma apresentação. Alguns dias depois, as planilhas continuam sendo atualizadas e as informações chegam incompletas ao software. Antes de concluir que as pessoas resistem à mudança, vale entender o que está acontecendo.",
-          "Pode haver uma tarefa que ficou mais demorada, um campo difícil de preencher ou uma dúvida que ninguém soube resolver. Colocar um sistema em uso exige acompanhar essas dificuldades e combinar como ele vai entrar na rotina.",
+          "O sistema está pronto, todo mundo tem acesso e já teve a apresentação. Uma semana depois, metade da equipe continua na planilha. Antes de achar que é resistência à mudança, vale descobrir o que está acontecendo de verdade.",
+          "Na maioria das vezes, existe um motivo prático: uma tarefa que ficou mais lenta, um campo chato de preencher, uma dúvida que ninguém resolveu.",
         ],
       },
       {
-        heading: "Ouça quem faz o trabalho todos os dias",
+        heading: "Escute quem usa todo dia",
         paragraphs: [
-          "Quem atende os clientes costuma conhecer detalhes que não aparecem na descrição do processo. Peça para essa pessoa mostrar como registra uma conversa, prepara uma proposta e organiza os retornos. Observe também as consultas que precisa fazer em outras ferramentas.",
-          "Trazer a equipe para essa conversa antes da entrega ajuda a identificar necessidades e testar se a solução faz sentido. Não é preciso atender a todo pedido, mas vale explicar as escolhas e ouvir o que pode dificultar o uso.",
+          "Quem atende cliente conhece detalhes que não aparecem em nenhum fluxograma. Peça para essa pessoa mostrar como registra uma conversa, monta uma proposta e organiza os retornos. Foi acompanhando o dia a dia de quem vendia, no meu estágio, que entendi do que o sistema precisava de verdade.",
+          "Trazer a equipe para perto antes da entrega ajuda a acertar. Não dá para atender todo pedido, mas dá para explicar as escolhas e ouvir o que pode atrapalhar.",
         ],
       },
       {
         heading: "Ensine com uma tarefa de verdade",
         paragraphs: [
-          "Em vez de apresentar todos os menus de uma vez, acompanhe uma tarefa do início ao fim. Por exemplo: cadastrar um contato, registrar o pedido, enviar uma proposta e agendar o retorno. A pessoa aprende onde encontrar o que precisa para trabalhar.",
-          "Use exemplos de treinamento e deixe um guia curto para as dúvidas mais comuns. Também combine a quem recorrer quando algo não funcionar. Saber que existe ajuda torna a mudança menos difícil.",
+          "Em vez de mostrar todos os menus de uma vez, faça junto uma tarefa do começo ao fim: cadastrar o contato, registrar o pedido, enviar a proposta, agendar o retorno. A pessoa aprende onde está o que ela precisa para trabalhar.",
+          "Deixe também um guia curto com as dúvidas mais comuns e combine a quem recorrer quando algo não funcionar.",
         ],
       },
       {
-        heading: "Combine onde cada informação será registrada",
+        heading: "Defina onde cada coisa é registrada",
         paragraphs: [
-          "Se parte da equipe usa o sistema e outra parte continua na planilha, ninguém sabe qual informação está atualizada. Defina onde serão registrados os novos atendimentos, quem confere os dados e como lidar com o histórico antigo.",
-          "A transição pode acontecer por etapas, desde que as regras estejam claras. Se um controle antigo ainda precisa continuar, explique para quê e até quando. Manter registros duplicados sem uma finalidade definida aumenta o trabalho e a chance de divergência.",
+          "Se parte da equipe usa o sistema e parte usa a planilha, ninguém sabe qual informação está certa. Deixe claro onde entram os novos atendimentos e o que fazer com o histórico antigo.",
+          "A transição pode ser feita por etapas, desde que as regras estejam claras para todo mundo.",
         ],
       },
       {
-        heading: "Acompanhe os primeiros dias de uso",
+        heading: "Acompanhe as primeiras semanas",
         paragraphs: [
-          "Pergunte o que ficou mais fácil e onde a equipe ainda precisa de ajuda. Um campo obrigatório pode não fazer sentido para todos os atendimentos. Uma tarefa frequente pode exigir cliques demais. Pequenos ajustes podem melhorar bastante a rotina.",
-          "Confira também se os combinados estão sendo cumpridos e se os gestores usam as informações do sistema. Quando os dados ajudam nas reuniões e nas decisões, a equipe consegue perceber por que vale mantê-los em dia.",
+          "Pergunte o que ficou mais fácil e onde ainda trava. Um campo obrigatório pode não fazer sentido para todo atendimento. Uma tarefa comum pode estar exigindo clique demais. Ajustes pequenos fazem muita diferença nessa fase.",
+          "E repare se os gestores usam as informações do sistema nas reuniões. Quando a equipe vê os dados sendo usados, entende por que vale manter tudo em dia.",
         ],
       },
     ],
