@@ -160,7 +160,7 @@ export default function Home() {
           </figure>
           <div className="presence-copy">
             <p className="eyebrow">FORMAÇÃO E EXPERIÊNCIA</p>
-            <h2>Breno Luiz Silva do Carmo.</h2>
+            <h2>Breno Luiz Silva do Carmo</h2>
             <p>
               Sou técnico em informática e engenheiro de computação. Logo no início da
               carreira, acompanhei de perto o processo de vendas de uma empresa e
