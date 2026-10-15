@@ -151,7 +151,9 @@ export default function Home() {
 
       <section className="presence section" id="sobre">
         <div className="presence-grid">
-          <div className="presence-mark" aria-hidden="true">B</div>
+          <figure className="presence-photo">
+            <img src="/img/breno-retrato.webp" alt="Breno Luiz sorrindo, sentado em uma praça" width={800} height={1000} loading="lazy" />
+          </figure>
           <div className="presence-copy">
             <p className="eyebrow">FORMAÇÃO E EXPERIÊNCIA</p>
             <h2>Breno Luiz Silva do Carmo.</h2>
@@ -173,6 +175,10 @@ export default function Home() {
           </div>
           <aside className="presence-proof" aria-label="Experiência profissional">
             <p>Sistemas para todo o processo comercial: captação, negociação, metas e pós-venda.</p>
+            <figure className="presence-event">
+              <img src="/img/breno-sbpc.webp" alt="Breno Luiz ao lado do letreiro da SBPC na UFF" width={1000} height={750} loading="lazy" />
+              <figcaption>Na SBPC, na UFF.</figcaption>
+            </figure>
             <div className="presence-credentials">
               <span>Vivência em processo de vendas</span>
               <span>Engenheiro de computação</span>
@@ -227,6 +233,10 @@ export default function Home() {
           <h2>O que você gostaria de melhorar na sua empresa?</h2>
         </div>
         <div className="conversion-copy">
+          <div className="conversion-person">
+            <img src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={400} height={400} loading="lazy" />
+            <span><strong>Breno Luiz</strong>Quem responde é quem desenvolve.</span>
+          </div>
           <p>
             Me conte como vocês trabalham e o que está dando mais trabalho hoje.
             A partir daí, podemos avaliar como um sistema ajudaria.

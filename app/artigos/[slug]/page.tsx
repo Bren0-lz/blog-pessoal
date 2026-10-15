@@ -39,7 +39,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
         <div className="article-layout">
           <aside className="article-author">
-            <span className="author-mark">B</span>
+            <img className="author-mark" src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={38} height={38} />
             <div><strong>Breno Luiz Silva do Carmo</strong><span>Engenheiro de computação</span></div>
           </aside>
           <div className="article-content">
