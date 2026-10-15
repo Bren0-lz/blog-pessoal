@@ -1,7 +1,7 @@
 import { ArrowRight, ArrowUpRight, Check, MoveDown, Plus } from "lucide-react";
 import { SiteHeader } from "./components/site-header";
 import { SiteFooter } from "./components/site-footer";
-import { contactEmail, location, whatsappLinks } from "./contact";
+import { contactEmail, instagram, location, whatsappLinks } from "./contact";
 import { articles } from "./content/articles";
 
 export default function Home() {
@@ -138,6 +138,7 @@ export default function Home() {
         <div className="faq-list">
           {[
             ["Quanto custa um sistema?", "Depende muito do que precisa ser feito. A primeira conversa não tem custo: é nela que eu entendo como a sua empresa funciona. Depois, te envio uma proposta com o escopo, o prazo e o valor da primeira versão."],
+            ["Você atende empresas de outras cidades?", "Sim. Todo o trabalho pode ser feito online, então a distância não atrapalha. Estou sempre de olho no WhatsApp para responder rápido e, durante o projeto, a gente pode fazer reuniões semanais para você acompanhar de perto como o sistema está ficando."],
             ["Quanto tempo leva?", "Também depende do tamanho do sistema, e o prazo já vai definido na proposta. A ideia é colocar uma primeira versão em uso o quanto antes e ir melhorando com a equipe usando no dia a dia."],
             ["Preciso saber exatamente o que quero?", "Não. Pode chegar só contando o que está difícil no atendimento ou nas vendas. A gente define junto o que vale a pena construir primeiro."],
             ["Quem fica com o código do sistema?", "O código é da sua empresa. A hospedagem também fica por conta de vocês: a mensalidade é paga direto ao serviço de hospedagem escolhido."],
@@ -174,7 +175,8 @@ export default function Home() {
             <p>
               Desde então, desenvolvo sistemas para empresas locais, ajudando negócios
               a sair do papel e das planilhas confusas e a organizar o processo comercial.
-              Hoje quero levar essa experiência para mais empresas, de qualquer segmento.
+              Hoje quero levar essa experiência para mais empresas, de qualquer segmento
+              e de qualquer cidade: todo o trabalho pode ser feito online.
             </p>
           </div>
           <aside className="presence-proof" aria-label="Experiência profissional">
@@ -183,7 +185,8 @@ export default function Home() {
               <span>Vivência em processo de vendas</span>
               <span>Engenheiro de computação</span>
               <span>Técnico em informática</span>
-              <span>{location}</span>
+              <span>{location} · atendo online</span>
+              <a href={instagram.url} target="_blank" rel="noreferrer">{instagram.handle} no Instagram</a>
             </div>
             <figure className="presence-event photo">
               <img src="/img/breno-sbpc.webp" alt="Breno Luiz ao lado do letreiro da SBPC na UFF" width={900} height={732} loading="lazy" />

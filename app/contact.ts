@@ -2,6 +2,10 @@ const whatsappPhone = "5522996199119";
 
 export const contactEmail = "contato@brenoluiz.com.br";
 export const location = "Itaperuna – RJ";
+export const instagram = {
+  handle: "@breno.computacao",
+  url: "https://www.instagram.com/breno.computacao/",
+};
 
 function createWhatsAppLink(message: string) {
   return `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(message)}`;
