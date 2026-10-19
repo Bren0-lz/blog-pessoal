@@ -1,8 +1,11 @@
 import { ArrowRight, ArrowUpRight, Check, MoveDown, Plus } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import { SiteHeader } from "./components/site-header";
 import { SiteFooter } from "./components/site-footer";
 import { contactEmail, instagram, location, whatsappLinks } from "./contact";
 import { articles } from "./content/articles";
+import { avanceTelecom } from "./content/avance-telecom";
 
 export default function Home() {
   const featured = articles.find((article) => article.featured) ?? articles[0];
@@ -17,13 +20,13 @@ export default function Home() {
           <p className="eyebrow">VENDAS · CRM · SISTEMAS SOB MEDIDA</p>
           <h1>Sistemas feitos por quem entende de vendas.</h1>
           <p className="hero-lead">
-            Aprendi vendas desenvolvendo do zero o sistema comercial de uma empresa,
-            acompanhando de perto como ela vendia. Hoje uso essa experiência para criar sistemas que ajudam a sua empresa a atrair clientes, conduzir
-            negociações, acompanhar metas e vender de novo para quem já comprou.
+            Crio CRMs, integrações e automações para organizar o comercial da sua empresa.
+            Minha experiência vem de acompanhar a rotina de quem vende e desenvolver
+            um sistema em cima desse processo.
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href={whatsappLinks.sales} target="_blank" rel="noreferrer">Conversar no WhatsApp <ArrowRight size={18} /></a>
-            <a className="button-link" href="#entregas">Ver o que eu construo</a>
+            <a className="button button-primary" href={whatsappLinks.salesBottleneck} target="_blank" rel="noreferrer">Conversar sobre meu negócio <ArrowRight size={18} aria-hidden="true" /></a>
+            <a className="button-link" href="#projeto">Conhecer o projeto Avance</a>
           </div>
           <div className="trust-line">
             <span><Check size={15} /> Vivência real em processo de vendas</span>
@@ -32,37 +35,56 @@ export default function Home() {
           </div>
         </div>
         <aside className="hero-proof">
-          <span className="proof-number">SINAIS DE QUE VALE CONVERSAR</span>
-          <ul className="proof-list">
-            <li>Novos contatos chegam, mas ninguém sabe de onde vêm nem quais valem a pena.</li>
-            <li>Só dá para saber se a meta foi batida quando o mês acaba.</li>
-            <li>Quem já comprou não volta, e ninguém percebe.</li>
-            <li>As informações dos clientes estão espalhadas entre planilhas, cadernos e WhatsApp.</li>
-          </ul>
+          <span className="proof-number">DA ROTINA COMERCIAL AO SOFTWARE</span>
+          <p className="proof-quote">Primeiro, entender como sua empresa trabalha. Depois, construir o que ajuda a equipe a vender.</p>
           <div className="proof-footer">
-            <img src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={400} height={400} />
+            <Image src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={400} height={400} />
             <div><span>BRENO LUIZ</span><span>VENDAS &amp; SOFTWARE · {location.toUpperCase()}</span></div>
           </div>
         </aside>
-        <a className="scroll-cue" href="#o-problema"><MoveDown size={15} /> continuar lendo</a>
+        <a className="scroll-cue" href="#projeto"><MoveDown size={15} aria-hidden="true" /> veja um projeto real</a>
+      </section>
+
+      <section className="project-preview section" id="projeto">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">PROJETO REAL · {avanceTelecom.name.toUpperCase()}</p>
+            <h2>{avanceTelecom.headline}</h2>
+          </div>
+          <p>{avanceTelecom.context}</p>
+        </div>
+        <div className="project-comparison">
+          <div><span className="eyebrow">ANTES</span><p>{avanceTelecom.before}</p></div>
+          <ArrowRight size={28} aria-hidden="true" />
+          <div><span className="eyebrow">DEPOIS</span><p>{avanceTelecom.after}</p></div>
+        </div>
+        <div className="project-outcomes">
+          {avanceTelecom.outcomes.map((outcome) => (
+            <article key={outcome.title}>
+              <Check size={20} aria-hidden="true" />
+              <h3>{outcome.title}</h3>
+              <p>{outcome.description}</p>
+            </article>
+          ))}
+        </div>
+        <Link className="button button-primary" href={avanceTelecom.href}>Conhecer o projeto completo <ArrowUpRight size={18} aria-hidden="true" /></Link>
       </section>
 
       <section className="problem-section section" id="o-problema">
         <div className="problem-heading">
-          <p className="eyebrow dark">QUANDO O SISTEMA NÃO ENTENDE DE VENDAS</p>
-          <h2>Um sistema que só guarda dados não ajuda ninguém a vender.</h2>
+          <p className="eyebrow dark">ISSO ACONTECE NA SUA EMPRESA?</p>
+          <h2>Quando organizar a venda dá mais trabalho do que vender.</h2>
         </div>
         <div className="problem-copy">
           <p>
-            Muitas empresas têm cadastro de clientes, planilhas e relatórios. Mesmo assim,
-            não sabem de onde vêm os melhores clientes, em que etapa as vendas emperram,
-            se a meta do mês vai ser batida ou quem parou de comprar.
+            Contatos espalhados pelo WhatsApp, retornos de propostas esquecidos e
+            planilhas que precisam ser atualizadas à mão. Para saber como estão as
+            vendas, o gestor precisa perguntar a cada pessoa ou juntar várias informações.
           </p>
           <p>
-            Eu aprendi isso na prática. Por isso, antes de pensar em qualquer tela,
-            olho para o processo comercial da sua empresa: como os clientes chegam,
-            como a negociação anda e o que acontece depois da venda. O sistema vem
-            para apoiar esse processo, e não o contrário.
+            Antes de pensar nas telas, olho para essa rotina: como os clientes chegam,
+            quem cuida de cada negociação e o que acontece depois da compra.
+            A partir daí, construo o que ajuda a equipe a acompanhar o processo.
           </p>
           <a className="inline-link" href="#entregas">Veja o que posso construir <ArrowRight size={17} /></a>
         </div>
@@ -72,27 +94,24 @@ export default function Home() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">DO PRIMEIRO CONTATO À RECOMPRA</p>
-            <h2>Um sistema para cada etapa da venda.</h2>
+            <h2>O que posso organizar no seu comercial.</h2>
           </div>
           <p>
-            Um sistema bem estruturado se adapta a qualquer modelo de empresa. Dá para
-            complementar o que você já usa ou construir tudo do zero, cobrindo uma
-            etapa ou o processo comercial inteiro.
+            Podemos complementar as ferramentas que você já usa ou construir um
+            sistema do zero. O ponto de partida é o que está dificultando sua rotina.
           </p>
         </div>
         <div className="deliveries-grid">
           {[
-            ["01", "Prospecção e captação", "Registro da origem de cada contato, qualificação dos interessados e distribuição para o vendedor certo, para a equipe investir tempo em quem tem mais chance de comprar."],
-            ["02", "Funil de vendas", "Etapas que refletem como a sua empresa vende, para enxergar onde as negociações avançam e onde costumam parar."],
-            ["03", "Metas e desempenho", "Metas por vendedor e por período, previsão de vendas e indicadores que mostram, durante o mês, se o resultado está no caminho."],
-            ["04", "Acompanhamento de negociações", "Propostas, prazos e próximos passos organizados, com um responsável definido para cada atendimento."],
-            ["05", "Pós-venda e recompra", "Histórico de compras, avisos sobre clientes inativos e lembretes de contato para estimular novas compras e indicações."],
-            ["06", "Integrações e automações", "Conecto as ferramentas que a sua empresa já usa e automatizo tarefas repetitivas, para a equipe passar mais tempo vendendo."],
-          ].map(([number, title, description]) => (
+            ["01", "CRM e acompanhamento comercial", "Contatos, propostas e próximos passos reunidos em um sistema que acompanha o jeito da sua empresa vender.", "Exemplo: saber quem atende cada cliente, em que etapa está a negociação e quando fazer o próximo contato."],
+            ["02", "Integrações e automações", "Ferramentas conectadas para reduzir cadastros repetidos, atualizações manuais e tarefas que tomam tempo da equipe.", "Exemplo: distribuir um novo contato e atualizar o status da venda automaticamente, conforme as regras do negócio."],
+            ["03", "Indicadores, metas e pós-venda", "Informações para acompanhar o mês, orientar a equipe e lembrar de quem já comprou.", "Exemplo: acompanhar metas por vendedor, consultar a origem dos contatos e identificar clientes que pararam de comprar."],
+          ].map(([number, title, description, example]) => (
             <article className="delivery" key={number}>
               <span>{number}</span>
               <h3>{title}</h3>
               <p>{description}</p>
+              <p className="delivery-example">{example}</p>
             </article>
           ))}
         </div>
@@ -112,7 +131,7 @@ export default function Home() {
         <div className="project-steps">
           {[
             ["01", "Conversa sobre o negócio", "Quero conhecer sua rotina, as ferramentas que você usa e as dificuldades da equipe no atendimento e nas vendas."],
-            ["02", "Definição da solução", "Organizo o que for preciso e uso o que aprendi sobre vendas para propor o que faz sentido para o seu negócio. Juntos, definimos o que entra na primeira versão."],
+            ["02", "Primeira versão e proposta", "Definimos o que vale a pena construir primeiro. Você recebe uma proposta com escopo, prazo e investimento antes de começar."],
             ["03", "Primeira versão e ajustes", "A equipe começa a usar o sistema. Eu acompanho os resultados e a gente ajusta o que for necessário conforme o uso."],
           ].map(([number, title, text]) => (
             <article className="project-step" key={number}>
@@ -121,6 +140,46 @@ export default function Home() {
               <p>{text}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="presence section" id="sobre">
+        <div className="presence-grid">
+          <figure className="presence-photo photo">
+            <Image src="/img/breno-retrato.webp" alt="Breno Luiz sorrindo, sentado em uma praça" width={800} height={1000} loading="lazy" />
+            <figcaption><span>BRENO LUIZ</span><span>{location}</span></figcaption>
+          </figure>
+          <div className="presence-copy">
+            <p className="eyebrow">FORMAÇÃO E EXPERIÊNCIA</p>
+            <h2>Breno Luiz Silva do Carmo</h2>
+            <p>
+              Sou técnico em informática e engenheiro de computação. Na Avance Telecom,
+              acompanhei o processo de vendas e desenvolvi o CRM que ajudou a empresa
+              a organizar sua operação comercial.
+            </p>
+            <p>
+              Essa vivência orienta meu trabalho: entender a rotina de quem vende e
+              transformar suas dificuldades em sistemas úteis para o dia a dia.
+            </p>
+            <p>
+              Estou em {location} e atendo empresas de outras cidades online.
+              Do primeiro contato aos ajustes do sistema, você conversa diretamente comigo.
+            </p>
+          </div>
+          <aside className="presence-proof" aria-label="Experiência profissional">
+            <p>Sistemas para todo o processo comercial: captação, negociação, metas e pós-venda.</p>
+            <div className="presence-credentials">
+              <span>Vivência em processo de vendas</span>
+              <span>Engenheiro de computação</span>
+              <span>Técnico em informática</span>
+              <span>{location} · atendo online</span>
+              <a href={instagram.url} target="_blank" rel="noreferrer">{instagram.handle} no Instagram</a>
+            </div>
+            <figure className="presence-event photo">
+              <Image src="/img/breno-sbpc.webp" alt="Breno Luiz ao lado do letreiro da SBPC na UFF" width={900} height={732} loading="lazy" />
+              <figcaption>Na SBPC, na UFF.</figcaption>
+            </figure>
+          </aside>
         </div>
       </section>
 
@@ -150,49 +209,6 @@ export default function Home() {
               <p>{answer}</p>
             </details>
           ))}
-        </div>
-      </section>
-
-      <section className="presence section" id="sobre">
-        <div className="presence-grid">
-          <figure className="presence-photo photo">
-            <img src="/img/breno-retrato.webp" alt="Breno Luiz sorrindo, sentado em uma praça" width={800} height={1000} loading="lazy" />
-            <figcaption><span>BRENO LUIZ</span><span>{location}</span></figcaption>
-          </figure>
-          <div className="presence-copy">
-            <p className="eyebrow">FORMAÇÃO E EXPERIÊNCIA</p>
-            <h2>Breno Luiz Silva do Carmo</h2>
-            <p>
-              Sou técnico em informática e engenheiro de computação. Logo no início da
-              carreira, acompanhei de perto o processo de vendas de uma empresa e
-              desenvolvi o sistema que sustentava esse processo.
-            </p>
-            <p>
-              Esse projeto me ensinou como uma venda funciona na prática e como um
-              sistema pode ajudar em cada etapa dela. Depois dele, percebi que muitas
-              empresas precisavam do mesmo e decidi abrir meu próprio negócio.
-            </p>
-            <p>
-              Desde então, desenvolvo sistemas para empresas locais, ajudando negócios
-              a sair do papel e das planilhas confusas e a organizar o processo comercial.
-              Hoje quero levar essa experiência para mais empresas, de qualquer segmento
-              e de qualquer cidade: todo o trabalho pode ser feito online.
-            </p>
-          </div>
-          <aside className="presence-proof" aria-label="Experiência profissional">
-            <p>Sistemas para todo o processo comercial: captação, negociação, metas e pós-venda.</p>
-            <div className="presence-credentials">
-              <span>Vivência em processo de vendas</span>
-              <span>Engenheiro de computação</span>
-              <span>Técnico em informática</span>
-              <span>{location} · atendo online</span>
-              <a href={instagram.url} target="_blank" rel="noreferrer">{instagram.handle} no Instagram</a>
-            </div>
-            <figure className="presence-event photo">
-              <img src="/img/breno-sbpc.webp" alt="Breno Luiz ao lado do letreiro da SBPC na UFF" width={900} height={732} loading="lazy" />
-              <figcaption>Na SBPC, na UFF.</figcaption>
-            </figure>
-          </aside>
         </div>
       </section>
 
@@ -241,14 +257,14 @@ export default function Home() {
         </div>
         <div className="conversion-copy">
           <div className="conversion-person">
-            <img src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={400} height={400} loading="lazy" />
+            <Image src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={400} height={400} loading="lazy" />
             <span><strong>Breno Luiz</strong>Quem responde é quem desenvolve.</span>
           </div>
           <p>
             Me conte como vocês trabalham e o que está dando mais trabalho hoje.
             A partir daí, podemos avaliar como um sistema ajudaria.
           </p>
-          <a className="button button-dark" href={whatsappLinks.salesBottleneck} target="_blank" rel="noreferrer">Falar sobre meu negócio <ArrowRight size={18} /></a>
+          <a className="button button-dark" href={whatsappLinks.salesBottleneck} target="_blank" rel="noreferrer">Conversar sobre meu negócio <ArrowRight size={18} aria-hidden="true" /></a>
           <small>Uma primeira conversa, sem compromisso. Prefere e-mail? Escreva para <a href={`mailto:${contactEmail}`}>{contactEmail}</a>.</small>
         </div>
       </section>

@@ -23,15 +23,22 @@ Abra `app/content/articles.ts`, duplique um artigo existente e altere:
 
 A página individual e o card na página inicial são gerados automaticamente.
 
+## Projeto Avance Telecom
+
+Os fatos do projeto ficam em `app/content/avance-telecom.ts`, compartilhados pelo resumo da página inicial e pelo caso completo em `/projetos/avance-telecom/`.
+
+O caso apresenta resultados qualitativos e um fluxo de antes e depois. Capturas reais com dados fictícios podem ser acrescentadas posteriormente; esta versão não inclui telas simuladas, depoimentos nem métricas de resultado.
+
 ## Próximas etapas sugeridas
 
-- conectar o formulário a um banco de dados ou serviço de e-mail;
 - conectar um painel de publicação ou CMS, caso a edição manual deixe de ser suficiente;
 - configurar domínio, métricas e SEO avançado;
-- publicar em um host compatível com Next.js/Cloudflare Workers.
+- acrescentar capturas autorizadas do CRM com dados fictícios.
 
 ## Build
 
 ```bash
 npm run build
 ```
+
+O build gera o site estático em `out/`, incluindo os artigos e o projeto Avance Telecom. Essa pasta pode ser servida pela hospedagem atual sem um servidor Node.js. A publicação é manual.
