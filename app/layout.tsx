@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://brenoluiz.com.br"),
   title: "Breno Luiz · CRM e sistemas sob medida em Itaperuna – RJ",
-  description: "CRM, integrações e automações para organizar o comercial de pequenas empresas. Conheça o projeto Avance Telecom e converse diretamente com Breno Luiz sobre seu negócio.",
+  description: "Breno Luiz Silva do Carmo aprendeu vendas desenvolvendo do zero o sistema comercial de uma empresa. Hoje cria sistemas de prospecção, funil, metas e pós-venda para empresas de qualquer cidade, com atendimento online.",
   openGraph: {
     title: "Breno Luiz · CRM e sistemas sob medida",
     description: "Sistemas feitos por quem entende de vendas: prospecção, funil, metas e pós-venda.",

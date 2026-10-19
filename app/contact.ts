@@ -21,9 +21,6 @@ export const whatsappLinks = {
   salesBottleneck: createWhatsAppLink(
     "Olá, Breno Luiz! Gostaria de conversar sobre algumas dificuldades na rotina da minha empresa e entender como um sistema pode ajudar.",
   ),
-  avanceTelecom: createWhatsAppLink(
-    "Olá, Breno Luiz! Conheci o projeto da Avance Telecom no seu site e quero conversar sobre como organizar meu processo comercial com um sistema sob medida.",
-  ),
   fromArticle: (title: string) =>
     createWhatsAppLink(
       `Olá, Breno Luiz! Li o artigo "${title}" no seu site e gostaria de conversar sobre como isso se aplica ao meu negócio.`,

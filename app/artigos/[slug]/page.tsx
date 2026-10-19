@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { SiteHeader } from "../../components/site-header";
@@ -43,7 +41,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       <SiteHeader />
       <article className="article-page">
         <header className="article-hero">
-          <Link className="back-link" href="/#artigos"><ArrowLeft size={16} /> Todos os artigos</Link>
+          <a className="back-link" href="/#artigos"><ArrowLeft size={16} /> Todos os artigos</a>
           <div className="article-meta"><span>{article.category}</span><span>{article.date}</span><span>{article.readingTime}</span></div>
           <h1>{article.title}</h1>
           <p>{article.description}</p>
@@ -51,7 +49,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
         <div className="article-layout">
           <aside className="article-author">
-            <Image className="author-mark" src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={38} height={38} />
+            <img className="author-mark" src="/img/breno-avatar.webp" alt="Foto de Breno Luiz" width={38} height={38} />
             <div><strong>Breno Luiz Silva do Carmo</strong><span>Engenheiro de computação</span></div>
           </aside>
           <div className="article-content">

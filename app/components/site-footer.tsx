@@ -1,10 +1,9 @@
 import { contactEmail, instagram, location, whatsappLinks } from "../contact";
-import Link from "next/link";
 
 export function SiteFooter() {
   return (
     <footer>
-      <Link className="identity" href="/"><span className="identity-name">Breno Luiz</span><span className="identity-role">software &amp; sistemas</span></Link>
+      <a className="identity" href="/"><span className="identity-name">Breno Luiz</span><span className="identity-role">software &amp; sistemas</span></a>
       <p className="footer-contact">
         <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
         <a href={whatsappLinks.navigation} target="_blank" rel="noreferrer">WhatsApp</a>
