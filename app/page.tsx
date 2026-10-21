@@ -14,21 +14,21 @@ export default function Home() {
 
       <section className="hero" id="inicio">
         <div className="hero-copy">
-          <p className="eyebrow">VENDAS · CRM · SISTEMAS SOB MEDIDA</p>
-          <h1>Sistemas feitos por quem entende de vendas.</h1>
+          <p className="eyebrow">SOFTWARE COMERCIAL · CRM · AUTOMAÇÃO</p>
+          <h1>Eu construo sistemas que ajudam o seu negócio a vender mais.</h1>
           <p className="hero-lead">
-            Aprendi vendas desenvolvendo do zero o sistema comercial de uma empresa,
-            acompanhando de perto como ela vendia. Hoje uso essa experiência para criar sistemas que ajudam a sua empresa a atrair clientes, conduzir
-            negociações, acompanhar metas e vender de novo para quem já comprou.
+            Tenho experiência no ramo de vendas e formação em engenharia de computação.
+            Uno as duas coisas para criar sistemas que ajudam sua empresa a atrair clientes,
+            conduzir negociações, acompanhar metas e vender de novo para quem já comprou.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href={whatsappLinks.sales} target="_blank" rel="noreferrer">Conversar no WhatsApp <ArrowRight size={18} /></a>
             <a className="button-link" href="#entregas">Ver o que eu construo</a>
           </div>
           <div className="trust-line">
-            <span><Check size={15} /> Vivência real em processo de vendas</span>
-            <span><Check size={15} /> Você fala direto com quem desenvolve</span>
-            <span><Check size={15} /> O código do sistema fica com a sua empresa</span>
+            <span><Check size={15} /> Foco no resultado do negócio</span>
+            <span><Check size={15} /> Adaptado à sua forma de trabalhar</span>
+            <span><Check size={15} /> Tecnologia com uma finalidade clara</span>
           </div>
         </div>
         <aside className="hero-proof">
@@ -49,20 +49,18 @@ export default function Home() {
 
       <section className="problem-section section" id="o-problema">
         <div className="problem-heading">
-          <p className="eyebrow dark">QUANDO O SISTEMA NÃO ENTENDE DE VENDAS</p>
-          <h2>Um sistema que só guarda dados não ajuda ninguém a vender.</h2>
+          <p className="eyebrow dark">QUANDO O SISTEMA NÃO ACOMPANHA A EQUIPE</p>
+          <h2>Você sabe quais clientes estão esperando um retorno?</h2>
         </div>
         <div className="problem-copy">
           <p>
-            Muitas empresas têm cadastro de clientes, planilhas e relatórios. Mesmo assim,
-            não sabem de onde vêm os melhores clientes, em que etapa as vendas emperram,
-            se a meta do mês vai ser batida ou quem parou de comprar.
+            Os contatos estão cadastrados e os relatórios estão prontos. Mesmo assim,
+            uma proposta fica sem resposta, um prazo passa e alguém precisa procurar
+            nas mensagens o que foi combinado.
           </p>
           <p>
-            Eu aprendi isso na prática. Por isso, antes de pensar em qualquer tela,
-            olho para o processo comercial da sua empresa: como os clientes chegam,
-            como a negociação anda e o que acontece depois da venda. O sistema vem
-            para apoiar esse processo, e não o contrário.
+            Meu trabalho é entender por que isso acontece e criar formas de evitar
+            essas falhas, com tarefas, lembretes e informações fáceis de encontrar.
           </p>
           <a className="inline-link" href="#entregas">Veja o que posso construir <ArrowRight size={17} /></a>
         </div>
@@ -71,13 +69,12 @@ export default function Home() {
       <section className="deliveries section" id="entregas">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">DO PRIMEIRO CONTATO À RECOMPRA</p>
-            <h2>Um sistema para cada etapa da venda.</h2>
+            <p className="eyebrow">O QUE POSSO FAZER PELA SUA EMPRESA</p>
+            <h2>Soluções para o seu processo comercial.</h2>
           </div>
           <p>
-            Um sistema bem estruturado se adapta a qualquer modelo de empresa. Dá para
-            complementar o que você já usa ou construir tudo do zero, cobrindo uma
-            etapa ou o processo comercial inteiro.
+            Podemos melhorar uma etapa do trabalho ou desenvolver um sistema mais
+            completo. A escolha depende do problema e das ferramentas que você já usa.
           </p>
         </div>
         <div className="deliveries-grid">
@@ -85,7 +82,7 @@ export default function Home() {
             ["01", "Prospecção e captação", "Registro da origem de cada contato, qualificação dos interessados e distribuição para o vendedor certo, para a equipe investir tempo em quem tem mais chance de comprar."],
             ["02", "Funil de vendas", "Etapas que refletem como a sua empresa vende, para enxergar onde as negociações avançam e onde costumam parar."],
             ["03", "Metas e desempenho", "Metas por vendedor e por período, previsão de vendas e indicadores que mostram, durante o mês, se o resultado está no caminho."],
-            ["04", "Acompanhamento de negociações", "Propostas, prazos e próximos passos organizados, com um responsável definido para cada atendimento."],
+            ["04", "Acompanhamento de negociações", "Propostas, prazos e retornos organizados para você saber o que está em negociação e quando precisa falar com cada cliente."],
             ["05", "Pós-venda e recompra", "Histórico de compras, avisos sobre clientes inativos e lembretes de contato para estimular novas compras e indicações."],
             ["06", "Integrações e automações", "Conecto as ferramentas que a sua empresa já usa e automatizo tarefas repetitivas, para a equipe passar mais tempo vendendo."],
           ].map(([number, title, description]) => (
@@ -112,8 +109,8 @@ export default function Home() {
         <div className="project-steps">
           {[
             ["01", "Conversa sobre o negócio", "Quero conhecer sua rotina, as ferramentas que você usa e as dificuldades da equipe no atendimento e nas vendas."],
-            ["02", "Definição da solução", "Organizo o que for preciso e uso o que aprendi sobre vendas para propor o que faz sentido para o seu negócio. Juntos, definimos o que entra na primeira versão."],
-            ["03", "Primeira versão e ajustes", "A equipe começa a usar o sistema. Eu acompanho os resultados e a gente ajusta o que for necessário conforme o uso."],
+            ["02", "Definição da solução", "Organizo as necessidades, proponho como o sistema pode ajudar e defino com você as prioridades da primeira versão."],
+            ["03", "Primeira versão e ajustes", "A equipe começa a usar o sistema. Acompanhamos o uso e ajustamos o que for necessário conforme aparecem novas necessidades."],
           ].map(([number, title, text]) => (
             <article className="project-step" key={number}>
               <span>{number}</span>
