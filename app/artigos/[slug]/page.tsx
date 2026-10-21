@@ -16,17 +16,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   const { slug } = await params;
   const article = getArticle(slug);
   if (!article) return {};
-  return {
-    title: `${article.title} | Breno Luiz`,
-    description: article.description,
-    openGraph: {
-      title: article.title,
-      description: article.description,
-      locale: "pt_BR",
-      type: "article",
-      images: [{ url: "/og.jpg", width: 1200, height: 630 }],
-    },
-  };
+  return { title: `${article.title} | Breno Luiz`, description: article.description };
 }
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
